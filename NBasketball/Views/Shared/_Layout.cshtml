@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBasketball - @ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/style.css" />
+    <!-- Подключаем jQuery в head -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="@Url.Action("Index", "Home")" class="@(ViewContext.RouteData.Values["Action"].ToString() == "Index" ? "active" : "")">Главная</a></li>
+                <li><a href="@Url.Action("Teams", "Home")" class="@(ViewContext.RouteData.Values["Action"].ToString() == "Teams" ? "active" : "")">Команды</a></li>
+                <li><a href="@Url.Action("Players", "Home")" class="@(ViewContext.RouteData.Values["Action"].ToString() == "Players" ? "active" : "")">Игроки</a></li>
+                <li><a href="@Url.Action("Favorites", "Home")" class="@(ViewContext.RouteData.Values["Action"].ToString() == "Favorites" ? "active" : "")">Избранное</a></li>
+                <li><a href="@Url.Action("AddPlayer", "Home")" class="@(ViewContext.RouteData.Values["Action"].ToString() == "AddPlayer" ? "active" : "")">Добавить игрока</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        @RenderBody()
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="partners">
+                <h3>Наши партнеры:</h3>
+                <ul>
+                    <li><a href="#">NBA.com</a></li>
+                    <li><a href="#">ESPN</a></li>
+                    <li><a href="#">Slam Magazine</a></li>
+                </ul>
+            </div>
+            <div class="contact-info">
+                <p>Свяжитесь с нами: <a href="mailto:info@nbasketball.com">info@nbasketball.com</a></p>
+                <p>© 2024 NBasketball. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Подключаем site.js в конце -->
+    <script src="~/js/site.js"></script>
+</body>
+</html>

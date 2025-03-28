@@ -1,0 +1,3833 @@
+{
+  "Version": 1,
+  "Hash": "YUQxK0a+3VwoVIX6IOlewFqCMAGx1gTSvF7gop5dN5M=",
+  "Source": "NBasketball",
+  "BasePath": "_content/NBasketball",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "NBasketball\\wwwroot",
+      "Source": "NBasketball",
+      "ContentRoot": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\",
+      "BasePath": "_content/NBasketball",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\12.jpg",
+      "SourceId": "NBasketball",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\",
+      "BasePath": "_content/NBasketball",
+      "RelativePath": "assets/12#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "opfj22kenx",
+      "Integrity": "tN8Js3Zg7EyKbR8DY9uuvbrobmBm/DwPjbFkuBJ68KY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\12.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\29fd2aca-366e-4991-9ceb-6cbfc2ed5b99.jpg",
+      "SourceId": "NBasketball",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\",
+      "BasePath": "_content/NBasketball",
+      "RelativePath": "assets/29fd2aca-366e-4991-9ceb-6cbfc2ed5b99#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wmfq4to8s6",
+      "Integrity": "qGkdbQhAb/hXoRj2AtjloyuLjk38XARo0j7SjMG6FU8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\29fd2aca-366e-4991-9ceb-6cbfc2ed5b99.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\6082d0fc-90e0-4579-966c-35f5816b0cb6.png",
+      "SourceId": "NBasketball",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\",
+      "BasePath": "_content/NBasketball",
+      "RelativePath": "assets/6082d0fc-90e0-4579-966c-35f5816b0cb6#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "javhzl84bq",
+      "Integrity": "VVDebvm7UPi55XekpE8u5/mv3CNrlMK4Jt6UIL5jGgk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\6082d0fc-90e0-4579-966c-35f5816b0cb6.png"
+    },
+    {
+      "Identity": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\6c228bc6-ea32-40cd-ae00-9c5c3afde446.png",
+      "SourceId": "NBasketball",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\",
+      "BasePath": "_content/NBasketball",
+      "RelativePath": "assets/6c228bc6-ea32-40cd-ae00-9c5c3afde446#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "crexnv1qk5",
+      "Integrity": "CFSHckZAhPvrJ/UhpWSm72az7QOQSDpnGegw1rMK+Wk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\6c228bc6-ea32-40cd-ae00-9c5c3afde446.png"
+    },
+    {
+      "Identity": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\acb-logo.png",
+      "SourceId": "NBasketball",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\",
+      "BasePath": "_content/NBasketball",
+      "RelativePath": "assets/acb-logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "aar3094sxv",
+      "Integrity": "4rCKWF3FlyZG6rubxQi4r7UnuM2d0A7egHtmWAhfvwc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\acb-logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\banner.jpg",
+      "SourceId": "NBasketball",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\",
+      "BasePath": "_content/NBasketball",
+      "RelativePath": "assets/banner#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gitdkgjqpt",
+      "Integrity": "WKXt7H49wwTiZBXNJLo4G/mMHvnYQ568B1CHGW24MVs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\banner.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\banner2.jpg",
+      "SourceId": "NBasketball",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\",
+      "BasePath": "_content/NBasketball",
+      "RelativePath": "assets/banner2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6cpme5culk",
+      "Integrity": "xmvxkbA7Gxl4UfejcA/axdpOV9W0gZp0wL5RwaHtFsQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\banner2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\banner3.jpg",
+      "SourceId": "NBasketball",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\",
+      "BasePath": "_content/NBasketball",
+      "RelativePath": "assets/banner3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fozilnzpgk",
+      "Integrity": "4Rkwng0JqyCgySHgsXewACI5D6UVpAHo4JJJDzak9Xk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\banner3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\batler.jpg",
+      "SourceId": "NBasketball",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\",
+      "BasePath": "_content/NBasketball",
+      "RelativePath": "assets/batler#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6h8f44x5j9",
+      "Integrity": "qjwrDs2aAbQ6Leybb/zVwhGxNMQzYY5ZOtQLvsTD/nY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\batler.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\euroleague-logo.png",
+      "SourceId": "NBasketball",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\",
+      "BasePath": "_content/NBasketball",
+      "RelativePath": "assets/euroleague-logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "scws29wuj2",
+      "Integrity": "zBjA64grKgYWep+KF0MKaprcnHVOzA2D2v5ZkZg0ykU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\euroleague-logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\fa4ddc02-2b80-4567-a71e-cca6a40d18aa.png",
+      "SourceId": "NBasketball",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\",
+      "BasePath": "_content/NBasketball",
+      "RelativePath": "assets/fa4ddc02-2b80-4567-a71e-cca6a40d18aa#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "javhzl84bq",
+      "Integrity": "VVDebvm7UPi55XekpE8u5/mv3CNrlMK4Jt6UIL5jGgk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\fa4ddc02-2b80-4567-a71e-cca6a40d18aa.png"
+    },
+    {
+      "Identity": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\fheart.png",
+      "SourceId": "NBasketball",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\",
+      "BasePath": "_content/NBasketball",
+      "RelativePath": "assets/fheart#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e63b9ytinn",
+      "Integrity": "1qWwyGXeNUYcHcr/mqQyTdUPpHEu/6Ebka/eZXW6eWA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\fheart.png"
+    },
+    {
+      "Identity": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\gratis-png-aris-b-c-kymi-grecia-kymis-b-c-aek-b-c-koroivos-b-c-thumbnail.png",
+      "SourceId": "NBasketball",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\",
+      "BasePath": "_content/NBasketball",
+      "RelativePath": "assets/gratis-png-aris-b-c-kymi-grecia-kymis-b-c-aek-b-c-koroivos-b-c-thumbnail#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "javhzl84bq",
+      "Integrity": "VVDebvm7UPi55XekpE8u5/mv3CNrlMK4Jt6UIL5jGgk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\gratis-png-aris-b-c-kymi-grecia-kymis-b-c-aek-b-c-koroivos-b-c-thumbnail.png"
+    },
+    {
+      "Identity": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\Greek.png",
+      "SourceId": "NBasketball",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\",
+      "BasePath": "_content/NBasketball",
+      "RelativePath": "assets/Greek#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "14ane1f21b",
+      "Integrity": "D4sy0mBix6GsOx+TZ0WyxX04VzObrfCfa6OL1FspiVY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\Greek.png"
+    },
+    {
+      "Identity": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\greekleague-logo.png",
+      "SourceId": "NBasketball",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\",
+      "BasePath": "_content/NBasketball",
+      "RelativePath": "assets/greekleague-logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "14ane1f21b",
+      "Integrity": "D4sy0mBix6GsOx+TZ0WyxX04VzObrfCfa6OL1FspiVY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\greekleague-logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\heart.png",
+      "SourceId": "NBasketball",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\",
+      "BasePath": "_content/NBasketball",
+      "RelativePath": "assets/heart#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qby3dlba8w",
+      "Integrity": "hqGruaakpI8KAi8AY/n8L/IBuv8IZx1BwsSnQATJIKQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\heart.png"
+    },
+    {
+      "Identity": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\israelileague-logo.png",
+      "SourceId": "NBasketball",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\",
+      "BasePath": "_content/NBasketball",
+      "RelativePath": "assets/israelileague-logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "w2mouqdf5t",
+      "Integrity": "OGSWjxi/9+f8Z/FfnXmBr7kypjmGZHEvpbr58711gdU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\israelileague-logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\italianleague-logo.png",
+      "SourceId": "NBasketball",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\",
+      "BasePath": "_content/NBasketball",
+      "RelativePath": "assets/italianleague-logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "crexnv1qk5",
+      "Integrity": "CFSHckZAhPvrJ/UhpWSm72az7QOQSDpnGegw1rMK+Wk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\italianleague-logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\joel.jpg",
+      "SourceId": "NBasketball",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\",
+      "BasePath": "_content/NBasketball",
+      "RelativePath": "assets/joel#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6dz5pm3ox2",
+      "Integrity": "trxEvo7I+R3fbHdGcRgA2ekIRjZPUuWAuyS3oBFDbVQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\joel.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\kavai.jpg",
+      "SourceId": "NBasketball",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\",
+      "BasePath": "_content/NBasketball",
+      "RelativePath": "assets/kavai#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pn6kcle2ga",
+      "Integrity": "S0EnWPC9+xj0/WnJ3IvTYTdcCHvyEfRIpJlO0jfA+rs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\kavai.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\kevin.jpg",
+      "SourceId": "NBasketball",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\",
+      "BasePath": "_content/NBasketball",
+      "RelativePath": "assets/kevin#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cmvbptxgqz",
+      "Integrity": "LC63aaCI0erSHhf5h/MSxPOUjQI1YDjcYXqQVl49eDI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\kevin.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\LA.jpg",
+      "SourceId": "NBasketball",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\",
+      "BasePath": "_content/NBasketball",
+      "RelativePath": "assets/LA#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xci3yvz0l5",
+      "Integrity": "TxIEbEODh2WHZWcldrSSodR17eOYS2IlEOUSjmoA1BE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\LA.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\lebron.jpg",
+      "SourceId": "NBasketball",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\",
+      "BasePath": "_content/NBasketball",
+      "RelativePath": "assets/lebron#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "g66w98rhlr",
+      "Integrity": "SKBcjOx2JSpVlcPYwLZrcpr/0NQii+WXsDnrwusAsnk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\lebron.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\luka.jpg",
+      "SourceId": "NBasketball",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\",
+      "BasePath": "_content/NBasketball",
+      "RelativePath": "assets/luka#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yt3q5orwfs",
+      "Integrity": "GjWgQ7WxQuXrwKkFOu6koeQSbkUgTgD67MleW1XJYBE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\luka.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\moskow.jpg",
+      "SourceId": "NBasketball",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\",
+      "BasePath": "_content/NBasketball",
+      "RelativePath": "assets/moskow#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "w7dpwfm2mf",
+      "Integrity": "LKuf0uDD5TgNjrOxPvjf9jGeWmtuV+yd0p5Blz2VL9U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\moskow.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\nba-logo.png",
+      "SourceId": "NBasketball",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\",
+      "BasePath": "_content/NBasketball",
+      "RelativePath": "assets/nba-logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uj2t731koh",
+      "Integrity": "KhXgCQUa3lQzL1LBgjX/XPuBMMtU9JJBeythB/9xREM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\nba-logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\nikola.jpg",
+      "SourceId": "NBasketball",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\",
+      "BasePath": "_content/NBasketball",
+      "RelativePath": "assets/nikola#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xhmz75m0rh",
+      "Integrity": "pVc8BarKqjJpi5pkAi3kWY2rotSzIdMb5+fZ6ajOD8c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\nikola.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\pol.jpg",
+      "SourceId": "NBasketball",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\",
+      "BasePath": "_content/NBasketball",
+      "RelativePath": "assets/pol#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "don9ldxa2i",
+      "Integrity": "HfkEmDyat3RQJCkFQ1ovsln7c8nPmIFhXRh9YrtG87E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\pol.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\RB.jpg",
+      "SourceId": "NBasketball",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\",
+      "BasePath": "_content/NBasketball",
+      "RelativePath": "assets/RB#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "15sfoudfbw",
+      "Integrity": "NRym0qG2LFsp/D3ncykI9KwyCqR/dkB8YqnAOgPrpUg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\RB.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\steph.jpg",
+      "SourceId": "NBasketball",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\",
+      "BasePath": "_content/NBasketball",
+      "RelativePath": "assets/steph#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zgj32p8j2n",
+      "Integrity": "rfSKDTP49SXsm+zMnie+8tU6NRQ+tQkqlNSdKQsqYnc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\steph.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\teytum.jpg",
+      "SourceId": "NBasketball",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\",
+      "BasePath": "_content/NBasketball",
+      "RelativePath": "assets/teytum#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5mfy69sb8k",
+      "Integrity": "jY1c2ocDvzFnqrv0Tzo02br3fWZDgv4+knbX1CrLSLQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\teytum.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\training1.jpg",
+      "SourceId": "NBasketball",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\",
+      "BasePath": "_content/NBasketball",
+      "RelativePath": "assets/training1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vf22zpw9fh",
+      "Integrity": "278xCP55034u0owk5foA0eV2YQaWSr8pwYyKegOl6/0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\training1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\training9.jpg",
+      "SourceId": "NBasketball",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\",
+      "BasePath": "_content/NBasketball",
+      "RelativePath": "assets/training9#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "esykdncrml",
+      "Integrity": "4qlvRTtP21D99KDFme4AoXJIyYRrkKp3Wvw5fhC/ayU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\training9.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\yanis.jpg",
+      "SourceId": "NBasketball",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\",
+      "BasePath": "_content/NBasketball",
+      "RelativePath": "assets/yanis#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "50rr422nci",
+      "Integrity": "dW1JgAEoI3VX9/GgWDeiUwmZ2RwvLTNF31jbyZwJGRs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\yanis.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\css\\style.css",
+      "SourceId": "NBasketball",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\",
+      "BasePath": "_content/NBasketball",
+      "RelativePath": "css/style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6p82ixui29",
+      "Integrity": "dpGXkbIKlCjFPY74pD0MNNfHWs4K7beObHjVp8lRlCQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\js\\site.js",
+      "SourceId": "NBasketball",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\",
+      "BasePath": "_content/NBasketball",
+      "RelativePath": "js/site#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "neybi9zdfa",
+      "Integrity": "EfeKMqTjQkW/Xci4w5w7diFp32zPv6mNprIRDgYQR1U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\teams\\los-angeles-lakers.html",
+      "SourceId": "NBasketball",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\",
+      "BasePath": "_content/NBasketball",
+      "RelativePath": "teams/los-angeles-lakers#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "twca7g4sri",
+      "Integrity": "3UbzbDBN0sp07vF63DFmfH7+OxAgIIbEdNN7I3ykMpY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\teams\\los-angeles-lakers.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "assets/12.jpg",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\12.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "169262"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tN8Js3Zg7EyKbR8DY9uuvbrobmBm/DwPjbFkuBJ68KY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 10:22:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tN8Js3Zg7EyKbR8DY9uuvbrobmBm/DwPjbFkuBJ68KY="
+        }
+      ]
+    },
+    {
+      "Route": "assets/12.opfj22kenx.jpg",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\12.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "169262"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tN8Js3Zg7EyKbR8DY9uuvbrobmBm/DwPjbFkuBJ68KY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Dec 2024 10:22:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "opfj22kenx"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/12.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tN8Js3Zg7EyKbR8DY9uuvbrobmBm/DwPjbFkuBJ68KY="
+        }
+      ]
+    },
+    {
+      "Route": "assets/29fd2aca-366e-4991-9ceb-6cbfc2ed5b99.jpg",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\29fd2aca-366e-4991-9ceb-6cbfc2ed5b99.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "89868"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qGkdbQhAb/hXoRj2AtjloyuLjk38XARo0j7SjMG6FU8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 16:54:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qGkdbQhAb/hXoRj2AtjloyuLjk38XARo0j7SjMG6FU8="
+        }
+      ]
+    },
+    {
+      "Route": "assets/29fd2aca-366e-4991-9ceb-6cbfc2ed5b99.wmfq4to8s6.jpg",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\29fd2aca-366e-4991-9ceb-6cbfc2ed5b99.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "89868"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qGkdbQhAb/hXoRj2AtjloyuLjk38XARo0j7SjMG6FU8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 16:54:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wmfq4to8s6"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/29fd2aca-366e-4991-9ceb-6cbfc2ed5b99.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qGkdbQhAb/hXoRj2AtjloyuLjk38XARo0j7SjMG6FU8="
+        }
+      ]
+    },
+    {
+      "Route": "assets/6082d0fc-90e0-4579-966c-35f5816b0cb6.javhzl84bq.png",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\6082d0fc-90e0-4579-966c-35f5816b0cb6.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23709"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VVDebvm7UPi55XekpE8u5/mv3CNrlMK4Jt6UIL5jGgk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 16:53:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "javhzl84bq"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/6082d0fc-90e0-4579-966c-35f5816b0cb6.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VVDebvm7UPi55XekpE8u5/mv3CNrlMK4Jt6UIL5jGgk="
+        }
+      ]
+    },
+    {
+      "Route": "assets/6082d0fc-90e0-4579-966c-35f5816b0cb6.png",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\6082d0fc-90e0-4579-966c-35f5816b0cb6.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23709"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VVDebvm7UPi55XekpE8u5/mv3CNrlMK4Jt6UIL5jGgk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 16:53:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VVDebvm7UPi55XekpE8u5/mv3CNrlMK4Jt6UIL5jGgk="
+        }
+      ]
+    },
+    {
+      "Route": "assets/6c228bc6-ea32-40cd-ae00-9c5c3afde446.crexnv1qk5.png",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\6c228bc6-ea32-40cd-ae00-9c5c3afde446.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "103358"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CFSHckZAhPvrJ/UhpWSm72az7QOQSDpnGegw1rMK+Wk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 17:15:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "crexnv1qk5"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/6c228bc6-ea32-40cd-ae00-9c5c3afde446.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CFSHckZAhPvrJ/UhpWSm72az7QOQSDpnGegw1rMK+Wk="
+        }
+      ]
+    },
+    {
+      "Route": "assets/6c228bc6-ea32-40cd-ae00-9c5c3afde446.png",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\6c228bc6-ea32-40cd-ae00-9c5c3afde446.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "103358"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CFSHckZAhPvrJ/UhpWSm72az7QOQSDpnGegw1rMK+Wk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 17:15:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CFSHckZAhPvrJ/UhpWSm72az7QOQSDpnGegw1rMK+Wk="
+        }
+      ]
+    },
+    {
+      "Route": "assets/acb-logo.aar3094sxv.png",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\acb-logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "161440"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4rCKWF3FlyZG6rubxQi4r7UnuM2d0A7egHtmWAhfvwc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 20:48:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "aar3094sxv"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/acb-logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4rCKWF3FlyZG6rubxQi4r7UnuM2d0A7egHtmWAhfvwc="
+        }
+      ]
+    },
+    {
+      "Route": "assets/acb-logo.png",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\acb-logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "161440"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4rCKWF3FlyZG6rubxQi4r7UnuM2d0A7egHtmWAhfvwc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 20:48:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4rCKWF3FlyZG6rubxQi4r7UnuM2d0A7egHtmWAhfvwc="
+        }
+      ]
+    },
+    {
+      "Route": "assets/banner.gitdkgjqpt.jpg",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\banner.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "145047"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WKXt7H49wwTiZBXNJLo4G/mMHvnYQ568B1CHGW24MVs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 19:21:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gitdkgjqpt"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/banner.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WKXt7H49wwTiZBXNJLo4G/mMHvnYQ568B1CHGW24MVs="
+        }
+      ]
+    },
+    {
+      "Route": "assets/banner.jpg",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\banner.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "145047"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WKXt7H49wwTiZBXNJLo4G/mMHvnYQ568B1CHGW24MVs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 19:21:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WKXt7H49wwTiZBXNJLo4G/mMHvnYQ568B1CHGW24MVs="
+        }
+      ]
+    },
+    {
+      "Route": "assets/banner2.6cpme5culk.jpg",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\banner2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27415"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xmvxkbA7Gxl4UfejcA/axdpOV9W0gZp0wL5RwaHtFsQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 07:58:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6cpme5culk"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/banner2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xmvxkbA7Gxl4UfejcA/axdpOV9W0gZp0wL5RwaHtFsQ="
+        }
+      ]
+    },
+    {
+      "Route": "assets/banner2.jpg",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\banner2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27415"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xmvxkbA7Gxl4UfejcA/axdpOV9W0gZp0wL5RwaHtFsQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 07:58:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xmvxkbA7Gxl4UfejcA/axdpOV9W0gZp0wL5RwaHtFsQ="
+        }
+      ]
+    },
+    {
+      "Route": "assets/banner3.fozilnzpgk.jpg",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\banner3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40098"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4Rkwng0JqyCgySHgsXewACI5D6UVpAHo4JJJDzak9Xk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 07:58:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fozilnzpgk"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/banner3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4Rkwng0JqyCgySHgsXewACI5D6UVpAHo4JJJDzak9Xk="
+        }
+      ]
+    },
+    {
+      "Route": "assets/banner3.jpg",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\banner3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40098"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4Rkwng0JqyCgySHgsXewACI5D6UVpAHo4JJJDzak9Xk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 07:58:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4Rkwng0JqyCgySHgsXewACI5D6UVpAHo4JJJDzak9Xk="
+        }
+      ]
+    },
+    {
+      "Route": "assets/batler.6h8f44x5j9.jpg",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\batler.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33410"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qjwrDs2aAbQ6Leybb/zVwhGxNMQzYY5ZOtQLvsTD/nY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 13:43:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6h8f44x5j9"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/batler.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qjwrDs2aAbQ6Leybb/zVwhGxNMQzYY5ZOtQLvsTD/nY="
+        }
+      ]
+    },
+    {
+      "Route": "assets/batler.jpg",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\batler.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33410"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qjwrDs2aAbQ6Leybb/zVwhGxNMQzYY5ZOtQLvsTD/nY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 13:43:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qjwrDs2aAbQ6Leybb/zVwhGxNMQzYY5ZOtQLvsTD/nY="
+        }
+      ]
+    },
+    {
+      "Route": "assets/euroleague-logo.png",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\euroleague-logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "516893"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zBjA64grKgYWep+KF0MKaprcnHVOzA2D2v5ZkZg0ykU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 20:50:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zBjA64grKgYWep+KF0MKaprcnHVOzA2D2v5ZkZg0ykU="
+        }
+      ]
+    },
+    {
+      "Route": "assets/euroleague-logo.scws29wuj2.png",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\euroleague-logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "516893"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zBjA64grKgYWep+KF0MKaprcnHVOzA2D2v5ZkZg0ykU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 20:50:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "scws29wuj2"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/euroleague-logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zBjA64grKgYWep+KF0MKaprcnHVOzA2D2v5ZkZg0ykU="
+        }
+      ]
+    },
+    {
+      "Route": "assets/fa4ddc02-2b80-4567-a71e-cca6a40d18aa.javhzl84bq.png",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\fa4ddc02-2b80-4567-a71e-cca6a40d18aa.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23709"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VVDebvm7UPi55XekpE8u5/mv3CNrlMK4Jt6UIL5jGgk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 17:03:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "javhzl84bq"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/fa4ddc02-2b80-4567-a71e-cca6a40d18aa.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VVDebvm7UPi55XekpE8u5/mv3CNrlMK4Jt6UIL5jGgk="
+        }
+      ]
+    },
+    {
+      "Route": "assets/fa4ddc02-2b80-4567-a71e-cca6a40d18aa.png",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\fa4ddc02-2b80-4567-a71e-cca6a40d18aa.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23709"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VVDebvm7UPi55XekpE8u5/mv3CNrlMK4Jt6UIL5jGgk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 17:03:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VVDebvm7UPi55XekpE8u5/mv3CNrlMK4Jt6UIL5jGgk="
+        }
+      ]
+    },
+    {
+      "Route": "assets/fheart.e63b9ytinn.png",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\fheart.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12341"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1qWwyGXeNUYcHcr/mqQyTdUPpHEu/6Ebka/eZXW6eWA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 08:19:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e63b9ytinn"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/fheart.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1qWwyGXeNUYcHcr/mqQyTdUPpHEu/6Ebka/eZXW6eWA="
+        }
+      ]
+    },
+    {
+      "Route": "assets/fheart.png",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\fheart.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12341"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1qWwyGXeNUYcHcr/mqQyTdUPpHEu/6Ebka/eZXW6eWA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 08:19:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1qWwyGXeNUYcHcr/mqQyTdUPpHEu/6Ebka/eZXW6eWA="
+        }
+      ]
+    },
+    {
+      "Route": "assets/gratis-png-aris-b-c-kymi-grecia-kymis-b-c-aek-b-c-koroivos-b-c-thumbnail.javhzl84bq.png",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\gratis-png-aris-b-c-kymi-grecia-kymis-b-c-aek-b-c-koroivos-b-c-thumbnail.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23709"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VVDebvm7UPi55XekpE8u5/mv3CNrlMK4Jt6UIL5jGgk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 15:11:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "javhzl84bq"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/gratis-png-aris-b-c-kymi-grecia-kymis-b-c-aek-b-c-koroivos-b-c-thumbnail.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VVDebvm7UPi55XekpE8u5/mv3CNrlMK4Jt6UIL5jGgk="
+        }
+      ]
+    },
+    {
+      "Route": "assets/gratis-png-aris-b-c-kymi-grecia-kymis-b-c-aek-b-c-koroivos-b-c-thumbnail.png",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\gratis-png-aris-b-c-kymi-grecia-kymis-b-c-aek-b-c-koroivos-b-c-thumbnail.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23709"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VVDebvm7UPi55XekpE8u5/mv3CNrlMK4Jt6UIL5jGgk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 15:11:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VVDebvm7UPi55XekpE8u5/mv3CNrlMK4Jt6UIL5jGgk="
+        }
+      ]
+    },
+    {
+      "Route": "assets/Greek.14ane1f21b.png",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\Greek.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "232058"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"D4sy0mBix6GsOx+TZ0WyxX04VzObrfCfa6OL1FspiVY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 14:32:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "14ane1f21b"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/Greek.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-D4sy0mBix6GsOx+TZ0WyxX04VzObrfCfa6OL1FspiVY="
+        }
+      ]
+    },
+    {
+      "Route": "assets/Greek.png",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\Greek.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "232058"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"D4sy0mBix6GsOx+TZ0WyxX04VzObrfCfa6OL1FspiVY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 14:32:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-D4sy0mBix6GsOx+TZ0WyxX04VzObrfCfa6OL1FspiVY="
+        }
+      ]
+    },
+    {
+      "Route": "assets/greekleague-logo.14ane1f21b.png",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\greekleague-logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "232058"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"D4sy0mBix6GsOx+TZ0WyxX04VzObrfCfa6OL1FspiVY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 13:15:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "14ane1f21b"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/greekleague-logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-D4sy0mBix6GsOx+TZ0WyxX04VzObrfCfa6OL1FspiVY="
+        }
+      ]
+    },
+    {
+      "Route": "assets/greekleague-logo.png",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\greekleague-logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "232058"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"D4sy0mBix6GsOx+TZ0WyxX04VzObrfCfa6OL1FspiVY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 13:15:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-D4sy0mBix6GsOx+TZ0WyxX04VzObrfCfa6OL1FspiVY="
+        }
+      ]
+    },
+    {
+      "Route": "assets/heart.png",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\heart.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20645"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hqGruaakpI8KAi8AY/n8L/IBuv8IZx1BwsSnQATJIKQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 08:19:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hqGruaakpI8KAi8AY/n8L/IBuv8IZx1BwsSnQATJIKQ="
+        }
+      ]
+    },
+    {
+      "Route": "assets/heart.qby3dlba8w.png",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\heart.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20645"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hqGruaakpI8KAi8AY/n8L/IBuv8IZx1BwsSnQATJIKQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 08:19:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qby3dlba8w"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/heart.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hqGruaakpI8KAi8AY/n8L/IBuv8IZx1BwsSnQATJIKQ="
+        }
+      ]
+    },
+    {
+      "Route": "assets/israelileague-logo.png",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\israelileague-logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1907213"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OGSWjxi/9+f8Z/FfnXmBr7kypjmGZHEvpbr58711gdU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 13:17:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OGSWjxi/9+f8Z/FfnXmBr7kypjmGZHEvpbr58711gdU="
+        }
+      ]
+    },
+    {
+      "Route": "assets/israelileague-logo.w2mouqdf5t.png",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\israelileague-logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1907213"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OGSWjxi/9+f8Z/FfnXmBr7kypjmGZHEvpbr58711gdU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 13:17:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w2mouqdf5t"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/israelileague-logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OGSWjxi/9+f8Z/FfnXmBr7kypjmGZHEvpbr58711gdU="
+        }
+      ]
+    },
+    {
+      "Route": "assets/italianleague-logo.crexnv1qk5.png",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\italianleague-logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "103358"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CFSHckZAhPvrJ/UhpWSm72az7QOQSDpnGegw1rMK+Wk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 13:18:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "crexnv1qk5"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/italianleague-logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CFSHckZAhPvrJ/UhpWSm72az7QOQSDpnGegw1rMK+Wk="
+        }
+      ]
+    },
+    {
+      "Route": "assets/italianleague-logo.png",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\italianleague-logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "103358"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CFSHckZAhPvrJ/UhpWSm72az7QOQSDpnGegw1rMK+Wk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 13:18:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CFSHckZAhPvrJ/UhpWSm72az7QOQSDpnGegw1rMK+Wk="
+        }
+      ]
+    },
+    {
+      "Route": "assets/joel.6dz5pm3ox2.jpg",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\joel.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "71268"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"trxEvo7I+R3fbHdGcRgA2ekIRjZPUuWAuyS3oBFDbVQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 13:09:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6dz5pm3ox2"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/joel.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-trxEvo7I+R3fbHdGcRgA2ekIRjZPUuWAuyS3oBFDbVQ="
+        }
+      ]
+    },
+    {
+      "Route": "assets/joel.jpg",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\joel.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "71268"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"trxEvo7I+R3fbHdGcRgA2ekIRjZPUuWAuyS3oBFDbVQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 13:09:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-trxEvo7I+R3fbHdGcRgA2ekIRjZPUuWAuyS3oBFDbVQ="
+        }
+      ]
+    },
+    {
+      "Route": "assets/kavai.jpg",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\kavai.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "107711"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S0EnWPC9+xj0/WnJ3IvTYTdcCHvyEfRIpJlO0jfA+rs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 13:42:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-S0EnWPC9+xj0/WnJ3IvTYTdcCHvyEfRIpJlO0jfA+rs="
+        }
+      ]
+    },
+    {
+      "Route": "assets/kavai.pn6kcle2ga.jpg",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\kavai.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "107711"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S0EnWPC9+xj0/WnJ3IvTYTdcCHvyEfRIpJlO0jfA+rs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 13:42:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pn6kcle2ga"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/kavai.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-S0EnWPC9+xj0/WnJ3IvTYTdcCHvyEfRIpJlO0jfA+rs="
+        }
+      ]
+    },
+    {
+      "Route": "assets/kevin.cmvbptxgqz.jpg",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\kevin.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "124221"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LC63aaCI0erSHhf5h/MSxPOUjQI1YDjcYXqQVl49eDI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 18:42:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cmvbptxgqz"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/kevin.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LC63aaCI0erSHhf5h/MSxPOUjQI1YDjcYXqQVl49eDI="
+        }
+      ]
+    },
+    {
+      "Route": "assets/kevin.jpg",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\kevin.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "124221"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LC63aaCI0erSHhf5h/MSxPOUjQI1YDjcYXqQVl49eDI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 18:42:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LC63aaCI0erSHhf5h/MSxPOUjQI1YDjcYXqQVl49eDI="
+        }
+      ]
+    },
+    {
+      "Route": "assets/LA.jpg",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\LA.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "979879"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TxIEbEODh2WHZWcldrSSodR17eOYS2IlEOUSjmoA1BE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 19:21:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TxIEbEODh2WHZWcldrSSodR17eOYS2IlEOUSjmoA1BE="
+        }
+      ]
+    },
+    {
+      "Route": "assets/LA.xci3yvz0l5.jpg",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\LA.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "979879"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TxIEbEODh2WHZWcldrSSodR17eOYS2IlEOUSjmoA1BE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 19:21:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xci3yvz0l5"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/LA.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TxIEbEODh2WHZWcldrSSodR17eOYS2IlEOUSjmoA1BE="
+        }
+      ]
+    },
+    {
+      "Route": "assets/lebron.g66w98rhlr.jpg",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\lebron.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "110020"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SKBcjOx2JSpVlcPYwLZrcpr/0NQii+WXsDnrwusAsnk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 18:39:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g66w98rhlr"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/lebron.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SKBcjOx2JSpVlcPYwLZrcpr/0NQii+WXsDnrwusAsnk="
+        }
+      ]
+    },
+    {
+      "Route": "assets/lebron.jpg",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\lebron.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "110020"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SKBcjOx2JSpVlcPYwLZrcpr/0NQii+WXsDnrwusAsnk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 18:39:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SKBcjOx2JSpVlcPYwLZrcpr/0NQii+WXsDnrwusAsnk="
+        }
+      ]
+    },
+    {
+      "Route": "assets/luka.jpg",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\luka.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "272361"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GjWgQ7WxQuXrwKkFOu6koeQSbkUgTgD67MleW1XJYBE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 13:07:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GjWgQ7WxQuXrwKkFOu6koeQSbkUgTgD67MleW1XJYBE="
+        }
+      ]
+    },
+    {
+      "Route": "assets/luka.yt3q5orwfs.jpg",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\luka.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "272361"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GjWgQ7WxQuXrwKkFOu6koeQSbkUgTgD67MleW1XJYBE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 13:07:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yt3q5orwfs"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/luka.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GjWgQ7WxQuXrwKkFOu6koeQSbkUgTgD67MleW1XJYBE="
+        }
+      ]
+    },
+    {
+      "Route": "assets/moskow.jpg",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\moskow.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3262130"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LKuf0uDD5TgNjrOxPvjf9jGeWmtuV+yd0p5Blz2VL9U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 19:34:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LKuf0uDD5TgNjrOxPvjf9jGeWmtuV+yd0p5Blz2VL9U="
+        }
+      ]
+    },
+    {
+      "Route": "assets/moskow.w7dpwfm2mf.jpg",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\moskow.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3262130"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LKuf0uDD5TgNjrOxPvjf9jGeWmtuV+yd0p5Blz2VL9U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 19:34:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w7dpwfm2mf"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/moskow.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LKuf0uDD5TgNjrOxPvjf9jGeWmtuV+yd0p5Blz2VL9U="
+        }
+      ]
+    },
+    {
+      "Route": "assets/nba-logo.png",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\nba-logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39247"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KhXgCQUa3lQzL1LBgjX/XPuBMMtU9JJBeythB/9xREM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 20:42:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KhXgCQUa3lQzL1LBgjX/XPuBMMtU9JJBeythB/9xREM="
+        }
+      ]
+    },
+    {
+      "Route": "assets/nba-logo.uj2t731koh.png",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\nba-logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39247"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KhXgCQUa3lQzL1LBgjX/XPuBMMtU9JJBeythB/9xREM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 20:42:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uj2t731koh"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/nba-logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KhXgCQUa3lQzL1LBgjX/XPuBMMtU9JJBeythB/9xREM="
+        }
+      ]
+    },
+    {
+      "Route": "assets/nikola.jpg",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\nikola.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "126355"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pVc8BarKqjJpi5pkAi3kWY2rotSzIdMb5+fZ6ajOD8c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 13:07:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pVc8BarKqjJpi5pkAi3kWY2rotSzIdMb5+fZ6ajOD8c="
+        }
+      ]
+    },
+    {
+      "Route": "assets/nikola.xhmz75m0rh.jpg",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\nikola.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "126355"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pVc8BarKqjJpi5pkAi3kWY2rotSzIdMb5+fZ6ajOD8c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 13:07:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xhmz75m0rh"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/nikola.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pVc8BarKqjJpi5pkAi3kWY2rotSzIdMb5+fZ6ajOD8c="
+        }
+      ]
+    },
+    {
+      "Route": "assets/pol.don9ldxa2i.jpg",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\pol.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "57530"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HfkEmDyat3RQJCkFQ1ovsln7c8nPmIFhXRh9YrtG87E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 13:42:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "don9ldxa2i"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/pol.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HfkEmDyat3RQJCkFQ1ovsln7c8nPmIFhXRh9YrtG87E="
+        }
+      ]
+    },
+    {
+      "Route": "assets/pol.jpg",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\pol.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "57530"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HfkEmDyat3RQJCkFQ1ovsln7c8nPmIFhXRh9YrtG87E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 13:42:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HfkEmDyat3RQJCkFQ1ovsln7c8nPmIFhXRh9YrtG87E="
+        }
+      ]
+    },
+    {
+      "Route": "assets/RB.15sfoudfbw.jpg",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\RB.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "243177"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NRym0qG2LFsp/D3ncykI9KwyCqR/dkB8YqnAOgPrpUg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 19:29:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "15sfoudfbw"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/RB.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NRym0qG2LFsp/D3ncykI9KwyCqR/dkB8YqnAOgPrpUg="
+        }
+      ]
+    },
+    {
+      "Route": "assets/RB.jpg",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\RB.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "243177"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NRym0qG2LFsp/D3ncykI9KwyCqR/dkB8YqnAOgPrpUg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 19:29:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NRym0qG2LFsp/D3ncykI9KwyCqR/dkB8YqnAOgPrpUg="
+        }
+      ]
+    },
+    {
+      "Route": "assets/steph.jpg",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\steph.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "216086"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rfSKDTP49SXsm+zMnie+8tU6NRQ+tQkqlNSdKQsqYnc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 18:41:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rfSKDTP49SXsm+zMnie+8tU6NRQ+tQkqlNSdKQsqYnc="
+        }
+      ]
+    },
+    {
+      "Route": "assets/steph.zgj32p8j2n.jpg",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\steph.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "216086"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rfSKDTP49SXsm+zMnie+8tU6NRQ+tQkqlNSdKQsqYnc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 18:41:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zgj32p8j2n"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/steph.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rfSKDTP49SXsm+zMnie+8tU6NRQ+tQkqlNSdKQsqYnc="
+        }
+      ]
+    },
+    {
+      "Route": "assets/teytum.5mfy69sb8k.jpg",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\teytum.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "77092"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jY1c2ocDvzFnqrv0Tzo02br3fWZDgv4+knbX1CrLSLQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 13:08:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5mfy69sb8k"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/teytum.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jY1c2ocDvzFnqrv0Tzo02br3fWZDgv4+knbX1CrLSLQ="
+        }
+      ]
+    },
+    {
+      "Route": "assets/teytum.jpg",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\teytum.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "77092"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jY1c2ocDvzFnqrv0Tzo02br3fWZDgv4+knbX1CrLSLQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 13:08:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jY1c2ocDvzFnqrv0Tzo02br3fWZDgv4+knbX1CrLSLQ="
+        }
+      ]
+    },
+    {
+      "Route": "assets/training1.jpg",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\training1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "103380"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"278xCP55034u0owk5foA0eV2YQaWSr8pwYyKegOl6/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 10:48:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-278xCP55034u0owk5foA0eV2YQaWSr8pwYyKegOl6/0="
+        }
+      ]
+    },
+    {
+      "Route": "assets/training1.vf22zpw9fh.jpg",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\training1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "103380"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"278xCP55034u0owk5foA0eV2YQaWSr8pwYyKegOl6/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 10:48:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vf22zpw9fh"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/training1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-278xCP55034u0owk5foA0eV2YQaWSr8pwYyKegOl6/0="
+        }
+      ]
+    },
+    {
+      "Route": "assets/training9.esykdncrml.jpg",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\training9.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "851313"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4qlvRTtP21D99KDFme4AoXJIyYRrkKp3Wvw5fhC/ayU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 11:16:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "esykdncrml"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/training9.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4qlvRTtP21D99KDFme4AoXJIyYRrkKp3Wvw5fhC/ayU="
+        }
+      ]
+    },
+    {
+      "Route": "assets/training9.jpg",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\training9.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "851313"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4qlvRTtP21D99KDFme4AoXJIyYRrkKp3Wvw5fhC/ayU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 11:16:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4qlvRTtP21D99KDFme4AoXJIyYRrkKp3Wvw5fhC/ayU="
+        }
+      ]
+    },
+    {
+      "Route": "assets/yanis.50rr422nci.jpg",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\yanis.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85549"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dW1JgAEoI3VX9/GgWDeiUwmZ2RwvLTNF31jbyZwJGRs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 13:07:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "50rr422nci"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/yanis.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dW1JgAEoI3VX9/GgWDeiUwmZ2RwvLTNF31jbyZwJGRs="
+        }
+      ]
+    },
+    {
+      "Route": "assets/yanis.jpg",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\yanis.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85549"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dW1JgAEoI3VX9/GgWDeiUwmZ2RwvLTNF31jbyZwJGRs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 13:07:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dW1JgAEoI3VX9/GgWDeiUwmZ2RwvLTNF31jbyZwJGRs="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.6p82ixui29.css",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7050"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dpGXkbIKlCjFPY74pD0MNNfHWs4K7beObHjVp8lRlCQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 17:21:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6p82ixui29"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dpGXkbIKlCjFPY74pD0MNNfHWs4K7beObHjVp8lRlCQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7050"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dpGXkbIKlCjFPY74pD0MNNfHWs4K7beObHjVp8lRlCQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 17:21:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dpGXkbIKlCjFPY74pD0MNNfHWs4K7beObHjVp8lRlCQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24586"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EfeKMqTjQkW/Xci4w5w7diFp32zPv6mNprIRDgYQR1U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 17:26:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EfeKMqTjQkW/Xci4w5w7diFp32zPv6mNprIRDgYQR1U="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.neybi9zdfa.js",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24586"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EfeKMqTjQkW/Xci4w5w7diFp32zPv6mNprIRDgYQR1U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 17:26:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "neybi9zdfa"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EfeKMqTjQkW/Xci4w5w7diFp32zPv6mNprIRDgYQR1U="
+        }
+      ]
+    },
+    {
+      "Route": "teams/los-angeles-lakers.html",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\teams\\los-angeles-lakers.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3232"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3UbzbDBN0sp07vF63DFmfH7+OxAgIIbEdNN7I3ykMpY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 07:48:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3UbzbDBN0sp07vF63DFmfH7+OxAgIIbEdNN7I3ykMpY="
+        }
+      ]
+    },
+    {
+      "Route": "teams/los-angeles-lakers.twca7g4sri.html",
+      "AssetFile": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\teams\\los-angeles-lakers.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3232"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3UbzbDBN0sp07vF63DFmfH7+OxAgIIbEdNN7I3ykMpY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 07:48:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "twca7g4sri"
+        },
+        {
+          "Name": "label",
+          "Value": "teams/los-angeles-lakers.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3UbzbDBN0sp07vF63DFmfH7+OxAgIIbEdNN7I3ykMpY="
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+﻿@model IEnumerable<NBasketball.Models.Player>
+@{
+    ViewData["Title"] = "Игроки";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Игроки</h1>
+<div class="filter">
+    <label for="positionFilter">Позиция:</label>
+    <select id="positionFilter" class="form-control">
+        <option value="all">Все</option>
+        <option value="Нападающий">Нападающий</option>
+        <option value="Форвард">Форвард</option>
+        <option value="Защитник">Защитник</option>
+        <option value="Центровой">Центровой</option>
+    </select>
+    <label for="teamFilter">Команда:</label>
+    <select id="teamFilter" class="form-control">
+        <option value="all">Все</option>
+        @foreach (var team in ViewBag.Teams)
+        {
+            <option value="@team.Name">@team.Name</option>
+        }
+    </select>
+</div>
+
+<div class="player-grid"></div>
+
+<!-- Контейнер для сообщений -->
+<div id="favorite-message" style="display: none; margin-top: 20px; padding: 10px; border-radius: 5px; background-color: #e0ffe0; color: #2c3e50; text-align: center;"></div>
+
+

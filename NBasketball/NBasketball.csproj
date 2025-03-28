@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\assets\12.jpg" />
+    <None Include="wwwroot\assets\acb-logo.png" />
+    <None Include="wwwroot\assets\banner.jpg" />
+    <None Include="wwwroot\assets\banner2.jpg" />
+    <None Include="wwwroot\assets\banner3.jpg" />
+    <None Include="wwwroot\assets\batler.jpg" />
+    <None Include="wwwroot\assets\fheart.png" />
+    <None Include="wwwroot\assets\heart.png" />
+    <None Include="wwwroot\assets\joel.jpg" />
+    <None Include="wwwroot\assets\kavai.jpg" />
+    <None Include="wwwroot\assets\kevin.jpg" />
+    <None Include="wwwroot\assets\LA.jpg" />
+    <None Include="wwwroot\assets\lebron.jpg" />
+    <None Include="wwwroot\assets\luka.jpg" />
+    <None Include="wwwroot\assets\moskow.jpg" />
+    <None Include="wwwroot\assets\nba-logo.png" />
+    <None Include="wwwroot\assets\nikola.jpg" />
+    <None Include="wwwroot\assets\pol.jpg" />
+    <None Include="wwwroot\assets\RB.jpg" />
+    <None Include="wwwroot\assets\steph.jpg" />
+    <None Include="wwwroot\assets\teytum.jpg" />
+    <None Include="wwwroot\assets\euroleague-logo.png" />
+    <None Include="wwwroot\assets\yanis.jpg" />
+    <None Include="wwwroot\css\style.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\js\site.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="MySql.EntityFrameworkCore" Version="8.0.0" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.0">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
+
+</Project>

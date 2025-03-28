@@ -1,0 +1,48 @@
+﻿@{
+    ViewData["Title"] = "Популярные команды в баскетболе";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Популярные команды в баскетболе</h1>
+
+<div id="search-container">
+    <input type="text" id="search-input" placeholder="Начните вводить название лиги..." class="form-control">
+    <ul id="suggestions" class="dropdown-menu" style="display: none; width: 100%; max-height: 200px; overflow-y: auto;"></ul>
+</div>
+
+<div id="teams-list">
+    <!-- Здесь отображаются лиги с командами -->
+</div>
+
+<style>
+    #search-container {
+        position: relative;
+    }
+
+    #suggestions {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 1000;
+        background-color: white;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        padding: 0;
+        list-style: none;
+    }
+
+    #suggestions li {
+        padding: 8px 12px;
+        cursor: pointer;
+    }
+
+    #suggestions li:hover {
+        background-color: #f0f0f0;
+    }
+
+    #show-more-btn {
+        display: block;
+        margin: 20px auto;
+    }
+</style>
+

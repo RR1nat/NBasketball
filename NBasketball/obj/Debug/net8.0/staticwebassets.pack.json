@@ -1,0 +1,173 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\12.jpg",
+      "PackagePath": "staticwebassets\\assets\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\29fd2aca-366e-4991-9ceb-6cbfc2ed5b99.jpg",
+      "PackagePath": "staticwebassets\\assets\\29fd2aca-366e-4991-9ceb-6cbfc2ed5b99.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\6082d0fc-90e0-4579-966c-35f5816b0cb6.png",
+      "PackagePath": "staticwebassets\\assets\\6082d0fc-90e0-4579-966c-35f5816b0cb6.png"
+    },
+    {
+      "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\6c228bc6-ea32-40cd-ae00-9c5c3afde446.png",
+      "PackagePath": "staticwebassets\\assets\\6c228bc6-ea32-40cd-ae00-9c5c3afde446.png"
+    },
+    {
+      "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\Greek.png",
+      "PackagePath": "staticwebassets\\assets\\Greek.png"
+    },
+    {
+      "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\LA.jpg",
+      "PackagePath": "staticwebassets\\assets\\LA.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\RB.jpg",
+      "PackagePath": "staticwebassets\\assets\\RB.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\acb-logo.png",
+      "PackagePath": "staticwebassets\\assets\\acb-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\banner.jpg",
+      "PackagePath": "staticwebassets\\assets\\banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\banner2.jpg",
+      "PackagePath": "staticwebassets\\assets\\banner2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\banner3.jpg",
+      "PackagePath": "staticwebassets\\assets\\banner3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\batler.jpg",
+      "PackagePath": "staticwebassets\\assets\\batler.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\euroleague-logo.png",
+      "PackagePath": "staticwebassets\\assets\\euroleague-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\fa4ddc02-2b80-4567-a71e-cca6a40d18aa.png",
+      "PackagePath": "staticwebassets\\assets\\fa4ddc02-2b80-4567-a71e-cca6a40d18aa.png"
+    },
+    {
+      "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\fheart.png",
+      "PackagePath": "staticwebassets\\assets\\fheart.png"
+    },
+    {
+      "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\gratis-png-aris-b-c-kymi-grecia-kymis-b-c-aek-b-c-koroivos-b-c-thumbnail.png",
+      "PackagePath": "staticwebassets\\assets\\gratis-png-aris-b-c-kymi-grecia-kymis-b-c-aek-b-c-koroivos-b-c-thumbnail.png"
+    },
+    {
+      "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\greekleague-logo.png",
+      "PackagePath": "staticwebassets\\assets\\greekleague-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\heart.png",
+      "PackagePath": "staticwebassets\\assets\\heart.png"
+    },
+    {
+      "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\israelileague-logo.png",
+      "PackagePath": "staticwebassets\\assets\\israelileague-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\italianleague-logo.png",
+      "PackagePath": "staticwebassets\\assets\\italianleague-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\joel.jpg",
+      "PackagePath": "staticwebassets\\assets\\joel.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\kavai.jpg",
+      "PackagePath": "staticwebassets\\assets\\kavai.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\kevin.jpg",
+      "PackagePath": "staticwebassets\\assets\\kevin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\lebron.jpg",
+      "PackagePath": "staticwebassets\\assets\\lebron.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\luka.jpg",
+      "PackagePath": "staticwebassets\\assets\\luka.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\moskow.jpg",
+      "PackagePath": "staticwebassets\\assets\\moskow.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\nba-logo.png",
+      "PackagePath": "staticwebassets\\assets\\nba-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\nikola.jpg",
+      "PackagePath": "staticwebassets\\assets\\nikola.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\pol.jpg",
+      "PackagePath": "staticwebassets\\assets\\pol.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\steph.jpg",
+      "PackagePath": "staticwebassets\\assets\\steph.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\teytum.jpg",
+      "PackagePath": "staticwebassets\\assets\\teytum.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\training1.jpg",
+      "PackagePath": "staticwebassets\\assets\\training1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\training9.jpg",
+      "PackagePath": "staticwebassets\\assets\\training9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\yanis.jpg",
+      "PackagePath": "staticwebassets\\assets\\yanis.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\teams\\los-angeles-lakers.html",
+      "PackagePath": "staticwebassets\\teams\\los-angeles-lakers.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.NBasketball.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.NBasketball.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.NBasketball.props",
+      "PackagePath": "build\\NBasketball.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.NBasketball.props",
+      "PackagePath": "buildMultiTargeting\\NBasketball.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.NBasketball.props",
+      "PackagePath": "buildTransitive\\NBasketball.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

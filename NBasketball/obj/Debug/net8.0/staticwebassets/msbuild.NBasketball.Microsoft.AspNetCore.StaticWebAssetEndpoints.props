@@ -1,0 +1,448 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/12.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\12.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-tN8Js3Zg7EyKbR8DY9uuvbrobmBm/DwPjbFkuBJ68KY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"169262"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022tN8Js3Zg7EyKbR8DY9uuvbrobmBm/DwPjbFkuBJ68KY=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Dec 2024 10:22:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/12.opfj22kenx.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\12.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"opfj22kenx"},{"Name":"integrity","Value":"sha256-tN8Js3Zg7EyKbR8DY9uuvbrobmBm/DwPjbFkuBJ68KY="},{"Name":"label","Value":"_content/NBasketball/assets/12.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"169262"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022tN8Js3Zg7EyKbR8DY9uuvbrobmBm/DwPjbFkuBJ68KY=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Dec 2024 10:22:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/29fd2aca-366e-4991-9ceb-6cbfc2ed5b99.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\29fd2aca-366e-4991-9ceb-6cbfc2ed5b99.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-qGkdbQhAb/hXoRj2AtjloyuLjk38XARo0j7SjMG6FU8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"89868"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022qGkdbQhAb/hXoRj2AtjloyuLjk38XARo0j7SjMG6FU8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Mar 2025 16:54:42 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/29fd2aca-366e-4991-9ceb-6cbfc2ed5b99.wmfq4to8s6.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\29fd2aca-366e-4991-9ceb-6cbfc2ed5b99.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wmfq4to8s6"},{"Name":"integrity","Value":"sha256-qGkdbQhAb/hXoRj2AtjloyuLjk38XARo0j7SjMG6FU8="},{"Name":"label","Value":"_content/NBasketball/assets/29fd2aca-366e-4991-9ceb-6cbfc2ed5b99.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"89868"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022qGkdbQhAb/hXoRj2AtjloyuLjk38XARo0j7SjMG6FU8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Mar 2025 16:54:42 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/6082d0fc-90e0-4579-966c-35f5816b0cb6.javhzl84bq.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\6082d0fc-90e0-4579-966c-35f5816b0cb6.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"javhzl84bq"},{"Name":"integrity","Value":"sha256-VVDebvm7UPi55XekpE8u5/mv3CNrlMK4Jt6UIL5jGgk="},{"Name":"label","Value":"_content/NBasketball/assets/6082d0fc-90e0-4579-966c-35f5816b0cb6.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"23709"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022VVDebvm7UPi55XekpE8u5/mv3CNrlMK4Jt6UIL5jGgk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Mar 2025 16:53:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/6082d0fc-90e0-4579-966c-35f5816b0cb6.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\6082d0fc-90e0-4579-966c-35f5816b0cb6.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-VVDebvm7UPi55XekpE8u5/mv3CNrlMK4Jt6UIL5jGgk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"23709"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022VVDebvm7UPi55XekpE8u5/mv3CNrlMK4Jt6UIL5jGgk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Mar 2025 16:53:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/6c228bc6-ea32-40cd-ae00-9c5c3afde446.crexnv1qk5.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\6c228bc6-ea32-40cd-ae00-9c5c3afde446.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"crexnv1qk5"},{"Name":"integrity","Value":"sha256-CFSHckZAhPvrJ/UhpWSm72az7QOQSDpnGegw1rMK\u002BWk="},{"Name":"label","Value":"_content/NBasketball/assets/6c228bc6-ea32-40cd-ae00-9c5c3afde446.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"103358"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022CFSHckZAhPvrJ/UhpWSm72az7QOQSDpnGegw1rMK\u002BWk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Mar 2025 17:15:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/6c228bc6-ea32-40cd-ae00-9c5c3afde446.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\6c228bc6-ea32-40cd-ae00-9c5c3afde446.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-CFSHckZAhPvrJ/UhpWSm72az7QOQSDpnGegw1rMK\u002BWk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"103358"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022CFSHckZAhPvrJ/UhpWSm72az7QOQSDpnGegw1rMK\u002BWk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Mar 2025 17:15:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/acb-logo.aar3094sxv.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\acb-logo.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"aar3094sxv"},{"Name":"integrity","Value":"sha256-4rCKWF3FlyZG6rubxQi4r7UnuM2d0A7egHtmWAhfvwc="},{"Name":"label","Value":"_content/NBasketball/assets/acb-logo.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"161440"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00224rCKWF3FlyZG6rubxQi4r7UnuM2d0A7egHtmWAhfvwc=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 20:48:33 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/acb-logo.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\acb-logo.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-4rCKWF3FlyZG6rubxQi4r7UnuM2d0A7egHtmWAhfvwc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"161440"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00224rCKWF3FlyZG6rubxQi4r7UnuM2d0A7egHtmWAhfvwc=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 20:48:33 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/banner.gitdkgjqpt.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\banner.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"gitdkgjqpt"},{"Name":"integrity","Value":"sha256-WKXt7H49wwTiZBXNJLo4G/mMHvnYQ568B1CHGW24MVs="},{"Name":"label","Value":"_content/NBasketball/assets/banner.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"145047"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022WKXt7H49wwTiZBXNJLo4G/mMHvnYQ568B1CHGW24MVs=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 19:21:49 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/banner.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\banner.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-WKXt7H49wwTiZBXNJLo4G/mMHvnYQ568B1CHGW24MVs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"145047"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022WKXt7H49wwTiZBXNJLo4G/mMHvnYQ568B1CHGW24MVs=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 19:21:49 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/banner2.6cpme5culk.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\banner2.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6cpme5culk"},{"Name":"integrity","Value":"sha256-xmvxkbA7Gxl4UfejcA/axdpOV9W0gZp0wL5RwaHtFsQ="},{"Name":"label","Value":"_content/NBasketball/assets/banner2.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"27415"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022xmvxkbA7Gxl4UfejcA/axdpOV9W0gZp0wL5RwaHtFsQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Feb 2025 07:58:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/banner2.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\banner2.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-xmvxkbA7Gxl4UfejcA/axdpOV9W0gZp0wL5RwaHtFsQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"27415"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022xmvxkbA7Gxl4UfejcA/axdpOV9W0gZp0wL5RwaHtFsQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Feb 2025 07:58:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/banner3.fozilnzpgk.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\banner3.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"fozilnzpgk"},{"Name":"integrity","Value":"sha256-4Rkwng0JqyCgySHgsXewACI5D6UVpAHo4JJJDzak9Xk="},{"Name":"label","Value":"_content/NBasketball/assets/banner3.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"40098"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00224Rkwng0JqyCgySHgsXewACI5D6UVpAHo4JJJDzak9Xk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Feb 2025 07:58:33 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/banner3.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\banner3.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-4Rkwng0JqyCgySHgsXewACI5D6UVpAHo4JJJDzak9Xk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"40098"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00224Rkwng0JqyCgySHgsXewACI5D6UVpAHo4JJJDzak9Xk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Feb 2025 07:58:33 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/batler.6h8f44x5j9.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\batler.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6h8f44x5j9"},{"Name":"integrity","Value":"sha256-qjwrDs2aAbQ6Leybb/zVwhGxNMQzYY5ZOtQLvsTD/nY="},{"Name":"label","Value":"_content/NBasketball/assets/batler.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"33410"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022qjwrDs2aAbQ6Leybb/zVwhGxNMQzYY5ZOtQLvsTD/nY=\u0022"},{"Name":"Last-Modified","Value":"Sat, 14 Dec 2024 13:43:04 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/batler.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\batler.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-qjwrDs2aAbQ6Leybb/zVwhGxNMQzYY5ZOtQLvsTD/nY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"33410"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022qjwrDs2aAbQ6Leybb/zVwhGxNMQzYY5ZOtQLvsTD/nY=\u0022"},{"Name":"Last-Modified","Value":"Sat, 14 Dec 2024 13:43:04 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/euroleague-logo.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\euroleague-logo.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-zBjA64grKgYWep\u002BKF0MKaprcnHVOzA2D2v5ZkZg0ykU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"516893"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022zBjA64grKgYWep\u002BKF0MKaprcnHVOzA2D2v5ZkZg0ykU=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 20:50:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/euroleague-logo.scws29wuj2.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\euroleague-logo.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"scws29wuj2"},{"Name":"integrity","Value":"sha256-zBjA64grKgYWep\u002BKF0MKaprcnHVOzA2D2v5ZkZg0ykU="},{"Name":"label","Value":"_content/NBasketball/assets/euroleague-logo.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"516893"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022zBjA64grKgYWep\u002BKF0MKaprcnHVOzA2D2v5ZkZg0ykU=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 20:50:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/fa4ddc02-2b80-4567-a71e-cca6a40d18aa.javhzl84bq.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\fa4ddc02-2b80-4567-a71e-cca6a40d18aa.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"javhzl84bq"},{"Name":"integrity","Value":"sha256-VVDebvm7UPi55XekpE8u5/mv3CNrlMK4Jt6UIL5jGgk="},{"Name":"label","Value":"_content/NBasketball/assets/fa4ddc02-2b80-4567-a71e-cca6a40d18aa.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"23709"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022VVDebvm7UPi55XekpE8u5/mv3CNrlMK4Jt6UIL5jGgk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Mar 2025 17:03:23 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/fa4ddc02-2b80-4567-a71e-cca6a40d18aa.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\fa4ddc02-2b80-4567-a71e-cca6a40d18aa.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-VVDebvm7UPi55XekpE8u5/mv3CNrlMK4Jt6UIL5jGgk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"23709"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022VVDebvm7UPi55XekpE8u5/mv3CNrlMK4Jt6UIL5jGgk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Mar 2025 17:03:23 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/fheart.e63b9ytinn.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\fheart.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"e63b9ytinn"},{"Name":"integrity","Value":"sha256-1qWwyGXeNUYcHcr/mqQyTdUPpHEu/6Ebka/eZXW6eWA="},{"Name":"label","Value":"_content/NBasketball/assets/fheart.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"12341"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00221qWwyGXeNUYcHcr/mqQyTdUPpHEu/6Ebka/eZXW6eWA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Feb 2025 08:19:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/fheart.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\fheart.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-1qWwyGXeNUYcHcr/mqQyTdUPpHEu/6Ebka/eZXW6eWA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"12341"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00221qWwyGXeNUYcHcr/mqQyTdUPpHEu/6Ebka/eZXW6eWA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Feb 2025 08:19:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/gratis-png-aris-b-c-kymi-grecia-kymis-b-c-aek-b-c-koroivos-b-c-thumbnail.javhzl84bq.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\gratis-png-aris-b-c-kymi-grecia-kymis-b-c-aek-b-c-koroivos-b-c-thumbnail.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"javhzl84bq"},{"Name":"integrity","Value":"sha256-VVDebvm7UPi55XekpE8u5/mv3CNrlMK4Jt6UIL5jGgk="},{"Name":"label","Value":"_content/NBasketball/assets/gratis-png-aris-b-c-kymi-grecia-kymis-b-c-aek-b-c-koroivos-b-c-thumbnail.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"23709"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022VVDebvm7UPi55XekpE8u5/mv3CNrlMK4Jt6UIL5jGgk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Mar 2025 15:11:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/gratis-png-aris-b-c-kymi-grecia-kymis-b-c-aek-b-c-koroivos-b-c-thumbnail.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\gratis-png-aris-b-c-kymi-grecia-kymis-b-c-aek-b-c-koroivos-b-c-thumbnail.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-VVDebvm7UPi55XekpE8u5/mv3CNrlMK4Jt6UIL5jGgk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"23709"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022VVDebvm7UPi55XekpE8u5/mv3CNrlMK4Jt6UIL5jGgk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Mar 2025 15:11:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/Greek.14ane1f21b.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\Greek.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"14ane1f21b"},{"Name":"integrity","Value":"sha256-D4sy0mBix6GsOx\u002BTZ0WyxX04VzObrfCfa6OL1FspiVY="},{"Name":"label","Value":"_content/NBasketball/assets/Greek.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"232058"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022D4sy0mBix6GsOx\u002BTZ0WyxX04VzObrfCfa6OL1FspiVY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Mar 2025 14:32:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/Greek.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\Greek.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-D4sy0mBix6GsOx\u002BTZ0WyxX04VzObrfCfa6OL1FspiVY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"232058"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022D4sy0mBix6GsOx\u002BTZ0WyxX04VzObrfCfa6OL1FspiVY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Mar 2025 14:32:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/greekleague-logo.14ane1f21b.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\greekleague-logo.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"14ane1f21b"},{"Name":"integrity","Value":"sha256-D4sy0mBix6GsOx\u002BTZ0WyxX04VzObrfCfa6OL1FspiVY="},{"Name":"label","Value":"_content/NBasketball/assets/greekleague-logo.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"232058"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022D4sy0mBix6GsOx\u002BTZ0WyxX04VzObrfCfa6OL1FspiVY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Mar 2025 13:15:49 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/greekleague-logo.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\greekleague-logo.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-D4sy0mBix6GsOx\u002BTZ0WyxX04VzObrfCfa6OL1FspiVY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"232058"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022D4sy0mBix6GsOx\u002BTZ0WyxX04VzObrfCfa6OL1FspiVY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Mar 2025 13:15:49 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/heart.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\heart.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hqGruaakpI8KAi8AY/n8L/IBuv8IZx1BwsSnQATJIKQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"20645"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022hqGruaakpI8KAi8AY/n8L/IBuv8IZx1BwsSnQATJIKQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Feb 2025 08:19:56 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/heart.qby3dlba8w.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\heart.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qby3dlba8w"},{"Name":"integrity","Value":"sha256-hqGruaakpI8KAi8AY/n8L/IBuv8IZx1BwsSnQATJIKQ="},{"Name":"label","Value":"_content/NBasketball/assets/heart.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"20645"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022hqGruaakpI8KAi8AY/n8L/IBuv8IZx1BwsSnQATJIKQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Feb 2025 08:19:56 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/israelileague-logo.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\israelileague-logo.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OGSWjxi/9\u002Bf8Z/FfnXmBr7kypjmGZHEvpbr58711gdU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1907213"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OGSWjxi/9\u002Bf8Z/FfnXmBr7kypjmGZHEvpbr58711gdU=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Mar 2025 13:17:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/israelileague-logo.w2mouqdf5t.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\israelileague-logo.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"w2mouqdf5t"},{"Name":"integrity","Value":"sha256-OGSWjxi/9\u002Bf8Z/FfnXmBr7kypjmGZHEvpbr58711gdU="},{"Name":"label","Value":"_content/NBasketball/assets/israelileague-logo.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1907213"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OGSWjxi/9\u002Bf8Z/FfnXmBr7kypjmGZHEvpbr58711gdU=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Mar 2025 13:17:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/italianleague-logo.crexnv1qk5.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\italianleague-logo.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"crexnv1qk5"},{"Name":"integrity","Value":"sha256-CFSHckZAhPvrJ/UhpWSm72az7QOQSDpnGegw1rMK\u002BWk="},{"Name":"label","Value":"_content/NBasketball/assets/italianleague-logo.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"103358"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022CFSHckZAhPvrJ/UhpWSm72az7QOQSDpnGegw1rMK\u002BWk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Mar 2025 13:18:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/italianleague-logo.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\italianleague-logo.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-CFSHckZAhPvrJ/UhpWSm72az7QOQSDpnGegw1rMK\u002BWk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"103358"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022CFSHckZAhPvrJ/UhpWSm72az7QOQSDpnGegw1rMK\u002BWk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Mar 2025 13:18:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/joel.6dz5pm3ox2.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\joel.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6dz5pm3ox2"},{"Name":"integrity","Value":"sha256-trxEvo7I\u002BR3fbHdGcRgA2ekIRjZPUuWAuyS3oBFDbVQ="},{"Name":"label","Value":"_content/NBasketball/assets/joel.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"71268"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022trxEvo7I\u002BR3fbHdGcRgA2ekIRjZPUuWAuyS3oBFDbVQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 14 Dec 2024 13:09:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/joel.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\joel.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-trxEvo7I\u002BR3fbHdGcRgA2ekIRjZPUuWAuyS3oBFDbVQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"71268"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022trxEvo7I\u002BR3fbHdGcRgA2ekIRjZPUuWAuyS3oBFDbVQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 14 Dec 2024 13:09:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/kavai.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\kavai.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-S0EnWPC9\u002Bxj0/WnJ3IvTYTdcCHvyEfRIpJlO0jfA\u002Brs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"107711"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022S0EnWPC9\u002Bxj0/WnJ3IvTYTdcCHvyEfRIpJlO0jfA\u002Brs=\u0022"},{"Name":"Last-Modified","Value":"Sat, 14 Dec 2024 13:42:27 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/kavai.pn6kcle2ga.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\kavai.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"pn6kcle2ga"},{"Name":"integrity","Value":"sha256-S0EnWPC9\u002Bxj0/WnJ3IvTYTdcCHvyEfRIpJlO0jfA\u002Brs="},{"Name":"label","Value":"_content/NBasketball/assets/kavai.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"107711"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022S0EnWPC9\u002Bxj0/WnJ3IvTYTdcCHvyEfRIpJlO0jfA\u002Brs=\u0022"},{"Name":"Last-Modified","Value":"Sat, 14 Dec 2024 13:42:27 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/kevin.cmvbptxgqz.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\kevin.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"cmvbptxgqz"},{"Name":"integrity","Value":"sha256-LC63aaCI0erSHhf5h/MSxPOUjQI1YDjcYXqQVl49eDI="},{"Name":"label","Value":"_content/NBasketball/assets/kevin.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"124221"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022LC63aaCI0erSHhf5h/MSxPOUjQI1YDjcYXqQVl49eDI=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 18:42:41 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/kevin.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\kevin.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-LC63aaCI0erSHhf5h/MSxPOUjQI1YDjcYXqQVl49eDI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"124221"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022LC63aaCI0erSHhf5h/MSxPOUjQI1YDjcYXqQVl49eDI=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 18:42:41 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/LA.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\LA.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-TxIEbEODh2WHZWcldrSSodR17eOYS2IlEOUSjmoA1BE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"979879"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022TxIEbEODh2WHZWcldrSSodR17eOYS2IlEOUSjmoA1BE=\u0022"},{"Name":"Last-Modified","Value":"Sat, 14 Dec 2024 19:21:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/LA.xci3yvz0l5.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\LA.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xci3yvz0l5"},{"Name":"integrity","Value":"sha256-TxIEbEODh2WHZWcldrSSodR17eOYS2IlEOUSjmoA1BE="},{"Name":"label","Value":"_content/NBasketball/assets/LA.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"979879"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022TxIEbEODh2WHZWcldrSSodR17eOYS2IlEOUSjmoA1BE=\u0022"},{"Name":"Last-Modified","Value":"Sat, 14 Dec 2024 19:21:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/lebron.g66w98rhlr.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\lebron.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"g66w98rhlr"},{"Name":"integrity","Value":"sha256-SKBcjOx2JSpVlcPYwLZrcpr/0NQii\u002BWXsDnrwusAsnk="},{"Name":"label","Value":"_content/NBasketball/assets/lebron.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"110020"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022SKBcjOx2JSpVlcPYwLZrcpr/0NQii\u002BWXsDnrwusAsnk=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 18:39:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/lebron.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\lebron.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-SKBcjOx2JSpVlcPYwLZrcpr/0NQii\u002BWXsDnrwusAsnk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"110020"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022SKBcjOx2JSpVlcPYwLZrcpr/0NQii\u002BWXsDnrwusAsnk=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 18:39:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/luka.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\luka.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-GjWgQ7WxQuXrwKkFOu6koeQSbkUgTgD67MleW1XJYBE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"272361"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022GjWgQ7WxQuXrwKkFOu6koeQSbkUgTgD67MleW1XJYBE=\u0022"},{"Name":"Last-Modified","Value":"Sat, 14 Dec 2024 13:07:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/luka.yt3q5orwfs.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\luka.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yt3q5orwfs"},{"Name":"integrity","Value":"sha256-GjWgQ7WxQuXrwKkFOu6koeQSbkUgTgD67MleW1XJYBE="},{"Name":"label","Value":"_content/NBasketball/assets/luka.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"272361"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022GjWgQ7WxQuXrwKkFOu6koeQSbkUgTgD67MleW1XJYBE=\u0022"},{"Name":"Last-Modified","Value":"Sat, 14 Dec 2024 13:07:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/moskow.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\moskow.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-LKuf0uDD5TgNjrOxPvjf9jGeWmtuV\u002Byd0p5Blz2VL9U="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"3262130"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022LKuf0uDD5TgNjrOxPvjf9jGeWmtuV\u002Byd0p5Blz2VL9U=\u0022"},{"Name":"Last-Modified","Value":"Sat, 14 Dec 2024 19:34:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/moskow.w7dpwfm2mf.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\moskow.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"w7dpwfm2mf"},{"Name":"integrity","Value":"sha256-LKuf0uDD5TgNjrOxPvjf9jGeWmtuV\u002Byd0p5Blz2VL9U="},{"Name":"label","Value":"_content/NBasketball/assets/moskow.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3262130"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022LKuf0uDD5TgNjrOxPvjf9jGeWmtuV\u002Byd0p5Blz2VL9U=\u0022"},{"Name":"Last-Modified","Value":"Sat, 14 Dec 2024 19:34:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/nba-logo.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\nba-logo.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-KhXgCQUa3lQzL1LBgjX/XPuBMMtU9JJBeythB/9xREM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"39247"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022KhXgCQUa3lQzL1LBgjX/XPuBMMtU9JJBeythB/9xREM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 20:42:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/nba-logo.uj2t731koh.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\nba-logo.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"uj2t731koh"},{"Name":"integrity","Value":"sha256-KhXgCQUa3lQzL1LBgjX/XPuBMMtU9JJBeythB/9xREM="},{"Name":"label","Value":"_content/NBasketball/assets/nba-logo.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"39247"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022KhXgCQUa3lQzL1LBgjX/XPuBMMtU9JJBeythB/9xREM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 20:42:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/nikola.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\nikola.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-pVc8BarKqjJpi5pkAi3kWY2rotSzIdMb5\u002BfZ6ajOD8c="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"126355"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022pVc8BarKqjJpi5pkAi3kWY2rotSzIdMb5\u002BfZ6ajOD8c=\u0022"},{"Name":"Last-Modified","Value":"Sat, 14 Dec 2024 13:07:29 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/nikola.xhmz75m0rh.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\nikola.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xhmz75m0rh"},{"Name":"integrity","Value":"sha256-pVc8BarKqjJpi5pkAi3kWY2rotSzIdMb5\u002BfZ6ajOD8c="},{"Name":"label","Value":"_content/NBasketball/assets/nikola.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"126355"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022pVc8BarKqjJpi5pkAi3kWY2rotSzIdMb5\u002BfZ6ajOD8c=\u0022"},{"Name":"Last-Modified","Value":"Sat, 14 Dec 2024 13:07:29 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/pol.don9ldxa2i.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\pol.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"don9ldxa2i"},{"Name":"integrity","Value":"sha256-HfkEmDyat3RQJCkFQ1ovsln7c8nPmIFhXRh9YrtG87E="},{"Name":"label","Value":"_content/NBasketball/assets/pol.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"57530"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022HfkEmDyat3RQJCkFQ1ovsln7c8nPmIFhXRh9YrtG87E=\u0022"},{"Name":"Last-Modified","Value":"Sat, 14 Dec 2024 13:42:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/pol.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\pol.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-HfkEmDyat3RQJCkFQ1ovsln7c8nPmIFhXRh9YrtG87E="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"57530"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022HfkEmDyat3RQJCkFQ1ovsln7c8nPmIFhXRh9YrtG87E=\u0022"},{"Name":"Last-Modified","Value":"Sat, 14 Dec 2024 13:42:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/RB.15sfoudfbw.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\RB.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"15sfoudfbw"},{"Name":"integrity","Value":"sha256-NRym0qG2LFsp/D3ncykI9KwyCqR/dkB8YqnAOgPrpUg="},{"Name":"label","Value":"_content/NBasketball/assets/RB.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"243177"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022NRym0qG2LFsp/D3ncykI9KwyCqR/dkB8YqnAOgPrpUg=\u0022"},{"Name":"Last-Modified","Value":"Sat, 14 Dec 2024 19:29:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/RB.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\RB.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-NRym0qG2LFsp/D3ncykI9KwyCqR/dkB8YqnAOgPrpUg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"243177"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022NRym0qG2LFsp/D3ncykI9KwyCqR/dkB8YqnAOgPrpUg=\u0022"},{"Name":"Last-Modified","Value":"Sat, 14 Dec 2024 19:29:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/steph.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\steph.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-rfSKDTP49SXsm\u002BzMnie\u002B8tU6NRQ\u002BtQkqlNSdKQsqYnc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"216086"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022rfSKDTP49SXsm\u002BzMnie\u002B8tU6NRQ\u002BtQkqlNSdKQsqYnc=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 18:41:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/steph.zgj32p8j2n.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\steph.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zgj32p8j2n"},{"Name":"integrity","Value":"sha256-rfSKDTP49SXsm\u002BzMnie\u002B8tU6NRQ\u002BtQkqlNSdKQsqYnc="},{"Name":"label","Value":"_content/NBasketball/assets/steph.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"216086"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022rfSKDTP49SXsm\u002BzMnie\u002B8tU6NRQ\u002BtQkqlNSdKQsqYnc=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 18:41:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/teytum.5mfy69sb8k.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\teytum.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5mfy69sb8k"},{"Name":"integrity","Value":"sha256-jY1c2ocDvzFnqrv0Tzo02br3fWZDgv4\u002BknbX1CrLSLQ="},{"Name":"label","Value":"_content/NBasketball/assets/teytum.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"77092"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022jY1c2ocDvzFnqrv0Tzo02br3fWZDgv4\u002BknbX1CrLSLQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 14 Dec 2024 13:08:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/teytum.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\teytum.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-jY1c2ocDvzFnqrv0Tzo02br3fWZDgv4\u002BknbX1CrLSLQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"77092"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022jY1c2ocDvzFnqrv0Tzo02br3fWZDgv4\u002BknbX1CrLSLQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 14 Dec 2024 13:08:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/training1.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\training1.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-278xCP55034u0owk5foA0eV2YQaWSr8pwYyKegOl6/0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"103380"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022278xCP55034u0owk5foA0eV2YQaWSr8pwYyKegOl6/0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Mar 2025 10:48:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/training1.vf22zpw9fh.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\training1.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vf22zpw9fh"},{"Name":"integrity","Value":"sha256-278xCP55034u0owk5foA0eV2YQaWSr8pwYyKegOl6/0="},{"Name":"label","Value":"_content/NBasketball/assets/training1.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"103380"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022278xCP55034u0owk5foA0eV2YQaWSr8pwYyKegOl6/0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Mar 2025 10:48:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/training9.esykdncrml.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\training9.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"esykdncrml"},{"Name":"integrity","Value":"sha256-4qlvRTtP21D99KDFme4AoXJIyYRrkKp3Wvw5fhC/ayU="},{"Name":"label","Value":"_content/NBasketball/assets/training9.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"851313"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00224qlvRTtP21D99KDFme4AoXJIyYRrkKp3Wvw5fhC/ayU=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Mar 2025 11:16:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/training9.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\training9.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-4qlvRTtP21D99KDFme4AoXJIyYRrkKp3Wvw5fhC/ayU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"851313"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00224qlvRTtP21D99KDFme4AoXJIyYRrkKp3Wvw5fhC/ayU=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Mar 2025 11:16:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/yanis.50rr422nci.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\yanis.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"50rr422nci"},{"Name":"integrity","Value":"sha256-dW1JgAEoI3VX9/GgWDeiUwmZ2RwvLTNF31jbyZwJGRs="},{"Name":"label","Value":"_content/NBasketball/assets/yanis.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"85549"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022dW1JgAEoI3VX9/GgWDeiUwmZ2RwvLTNF31jbyZwJGRs=\u0022"},{"Name":"Last-Modified","Value":"Sat, 14 Dec 2024 13:07:05 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/assets/yanis.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\yanis.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-dW1JgAEoI3VX9/GgWDeiUwmZ2RwvLTNF31jbyZwJGRs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"85549"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022dW1JgAEoI3VX9/GgWDeiUwmZ2RwvLTNF31jbyZwJGRs=\u0022"},{"Name":"Last-Modified","Value":"Sat, 14 Dec 2024 13:07:05 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/css/style.6p82ixui29.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\style.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6p82ixui29"},{"Name":"integrity","Value":"sha256-dpGXkbIKlCjFPY74pD0MNNfHWs4K7beObHjVp8lRlCQ="},{"Name":"label","Value":"_content/NBasketball/css/style.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7050"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022dpGXkbIKlCjFPY74pD0MNNfHWs4K7beObHjVp8lRlCQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Mar 2025 17:21:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/css/style.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\style.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-dpGXkbIKlCjFPY74pD0MNNfHWs4K7beObHjVp8lRlCQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"7050"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022dpGXkbIKlCjFPY74pD0MNNfHWs4K7beObHjVp8lRlCQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Mar 2025 17:21:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/js/site.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-EfeKMqTjQkW/Xci4w5w7diFp32zPv6mNprIRDgYQR1U="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"24586"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022EfeKMqTjQkW/Xci4w5w7diFp32zPv6mNprIRDgYQR1U=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Mar 2025 17:26:23 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/js/site.neybi9zdfa.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"neybi9zdfa"},{"Name":"integrity","Value":"sha256-EfeKMqTjQkW/Xci4w5w7diFp32zPv6mNprIRDgYQR1U="},{"Name":"label","Value":"_content/NBasketball/js/site.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"24586"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022EfeKMqTjQkW/Xci4w5w7diFp32zPv6mNprIRDgYQR1U=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Mar 2025 17:26:23 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/teams/los-angeles-lakers.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\teams\los-angeles-lakers.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-3UbzbDBN0sp07vF63DFmfH7\u002BOxAgIIbEdNN7I3ykMpY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3232"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u00223UbzbDBN0sp07vF63DFmfH7\u002BOxAgIIbEdNN7I3ykMpY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Mar 2025 07:48:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/teams/los-angeles-lakers.twca7g4sri.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\teams\los-angeles-lakers.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"twca7g4sri"},{"Name":"integrity","Value":"sha256-3UbzbDBN0sp07vF63DFmfH7\u002BOxAgIIbEdNN7I3ykMpY="},{"Name":"label","Value":"_content/NBasketball/teams/los-angeles-lakers.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3232"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u00223UbzbDBN0sp07vF63DFmfH7\u002BOxAgIIbEdNN7I3ykMpY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Mar 2025 07:48:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

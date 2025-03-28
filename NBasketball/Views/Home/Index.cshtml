@@ -1,0 +1,76 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Главная";
+}
+
+<h1>Последние новости из мира баскетбола</h1>
+
+<!-- Карусель изображений -->
+<div class="carousel-container">
+    <div class="carousel-slides">
+        <div class="carousel-slide"><img src="~/assets/banner.jpg" alt="Баннер 1"></div>
+        <div class="carousel-slide"><img src="~/assets/banner2.jpg" alt="Баннер 2"></div>
+        <div class="carousel-slide"><img src="~/assets/banner3.jpg" alt="Баннер 3"></div>
+    </div>
+    <div class="carousel-controls">
+        <button class="carousel-button prev" onclick="prevSlide()">❮</button>
+        <button class="carousel-button next" onclick="nextSlide()">❯</button>
+    </div>
+</div>
+
+<div class="news">
+    <h2>Леброн Джеймс продлил контракт с Lakers</h2>
+    <p>Суперзвезда Леброн Джеймс официально продлил свой контракт с Los Angeles Lakers. Новое соглашение рассчитано на два года и позволит Джеймсу продолжить свою легендарную карьеру в составе "озерников". Подробности контракта пока не разглашаются, но, по слухам, сумма сделки превышает $97 миллионов. Это решение стало ожидаемым для многих фанатов, которые надеются увидеть Леброна в борьбе за чемпионский титул.</p>
+
+    <h2>Golden State Warriors готовятся к новому сезону</h2>
+    <p>После триумфального возвращения на вершину баскетбольного мира, Golden State Warriors полны решимости защитить свой чемпионский титул. Команда сохранила свой основной костяк, включая Стефена Карри, Клэя Томпсона и Дрэймонда Грина. В межсезонье "воины" также подписали несколько перспективных новичков, которые должны усилить команду.</p>
+    <p>Главный тренер Warriors, Стив Керр, выразил уверенность в том, что команда готова к новому сезону и способна бороться за чемпионство. Он отметил, что игроки находятся в отличной форме и готовы к тяжелой борьбе.</p>
+
+    <h2>Виктор Вембаньяма дебютирует в NBA</h2>
+    <p>Виктор Вембаньяма, самый ожидаемый новичок за последние годы, наконец дебютировал в NBA. Французский центровой, выбранный под первым номером на драфте 2023 года командой San Antonio Spurs, вышел на паркет в матче против Charlotte Hornets. Вембаньяма продемонстрировал свои уникальные навыки, набрав 27 очков, сделав 12 подборов и 3 блок-шота.</p>
+    <p>Дебют Вембаньямы стал настоящим событием для всего баскетбольного мира. Многие эксперты считают, что он станет будущей суперзвездой лиги. Его рост, атлетизм и универсализм делают его одним из самых перспективных игроков в NBA.</p>
+</div>
+
+<h2>Расписание матчей</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Дата</th>
+            <th>Время</th>
+            <th>Команда 1</th>
+            <th>Команда 2</th>
+            <th>Место</th>
+            <th>Счет</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>12.12.2024</td>
+            <td>20:00</td>
+            <td><a href="lakers.html">Los Angeles Lakers</a></td>
+            <td><a href="team_details_celtics.html">Boston Celtics</a></td>
+            <td>Crypto.com Arena, Лос-Анджелес</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>28.12.2024</td>
+            <td>21:30</td>
+            <td><a href="team_details_warriors.html">Golden State Warriors</a></td>
+            <td><a href="team_details_nets.html">Brooklyn Nets</a></td>
+            <td>Chase Center, Сан-Франциско</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>05.01.2025</td>
+            <td>19:00</td>
+            <td><a href="lakers.html">Los Angeles Lakers</a></td>
+            <td><a href="team_details_warriors.html">Golden State Warriors</a></td>
+            <td>Crypto.com Arena, Лос-Анджелес</td>
+            <td>112:105</td>
+        </tr>
+    </tbody>
+</table>
+
+
+
+<button class="scroll-to-top" id="scrollToTop" onclick="scrollToTop()">↑</button>
