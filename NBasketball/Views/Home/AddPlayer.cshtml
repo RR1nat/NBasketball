@@ -7,7 +7,7 @@
 
 <h1>Добавить игрока</h1>
 
-<form id="addPlayerForm" enctype="multipart/form-data">
+<form asp-action="AddPlayer" asp-controller="Home" method="post" enctype="multipart/form-data">
     <div class="form-group">
         <label asp-for="Name">Имя</label>
         <input asp-for="Name" class="form-control" />
@@ -48,65 +48,6 @@
     <button type="submit" class="btn btn-primary">Добавить игрока</button>
 </form>
 
-<div id="addPlayerMessage" class="alert" style="display: none; margin-top: 20px;"></div>
-
-@section Scripts {
-    <partial name="_ValidationScriptsPartial" />
-    <script>
-        $(document).ready(function () {
-            $("#addPlayerForm").on("submit", function (e) {
-                e.preventDefault();
-
-                // Очищаем предыдущие сообщения об ошибках
-                $(".validation-message").text("");
-                $("#addPlayerMessage").hide();
-
-                var formData = new FormData(this);
-
-                $.ajax({
-                    url: "/Home/AddPlayerAjax",
-                    type: "POST",
-                    data: formData,
-                    processData: false,
-                    contentType: false,
-                    success: function (response) {
-                        if (response.success) {
-                            $("#addPlayerMessage")
-                                .removeClass("alert-danger")
-                                .addClass("alert-success")
-                                .text(response.message)
-                                .show();
-                            $("#addPlayerForm")[0].reset();
-                        } else {
-                            $("#addPlayerMessage")
-                                .removeClass("alert-success")
-                                .addClass("alert-danger")
-                                .text(response.message)
-                                .show();
-                            if (response.errors) {
-                                response.errors.forEach(function (error) {
-                                    if (error.toLowerCase().includes("имя")) $("#NameError").text(error);
-                                    if (error.toLowerCase().includes("позиция")) $("#PositionError").text(error);
-                                    if (error.toLowerCase().includes("команда")) $("#TeamIdError").text(error);
-                                    if (error.toLowerCase().includes("дата")) $("#DateAddedError").text(error);
-                                    if (error.toLowerCase().includes("фото")) $("#ImageFileError").text(error);
-                                });
-                            }
-                        }
-                    },
-                    error: function (xhr, status, error) {
-                        $("#addPlayerMessage")
-                            .removeClass("alert-success")
-                            .addClass("alert-danger")
-                            .text("Произошла ошибка при отправке формы: " + error)
-                            .show();
-                    }
-                });
-            });
-        });
-    </script>
-}
-
 <style>
     .form-group {
         margin-bottom: 1.5rem;
@@ -126,20 +67,4 @@
         .validation-message:empty {
             opacity: 0; /* Скрываем пустые сообщения */
         }
-
-    .alert-success {
-        background-color: #d4edda;
-        color: #155724;
-        border-color: #c3e6cb;
-        padding: 10px;
-        border-radius: 4px;
-    }
-
-    .alert-danger {
-        background-color: #f8d7da;
-        color: #721c24;
-        border-color: #f5c6cb;
-        padding: 10px;
-        border-radius: 4px;
-    }
 </style>
