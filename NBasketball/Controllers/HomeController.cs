@@ -380,20 +380,21 @@ namespace NBasketball.Controllers
         [HttpPost]
         public async Task<IActionResult> AddPlayerAjax(IFormFile imageFile)
         {
+            // Логируем все полученные данные
+            foreach (var key in Request.Form.Keys)
+            {
+                Console.WriteLine($"{key}: {Request.Form[key]}");
+            }
+            if (imageFile != null) Console.WriteLine($"ImageFile: {imageFile.FileName}, Size: {imageFile.Length}");
+
+            // Ручная валидация
             var name = Request.Form["Name"].ToString();
             var position = Request.Form["Position"].ToString();
             var teamIdStr = Request.Form["TeamId"].ToString();
             var dateAddedStr = Request.Form["DateAdded"].ToString();
 
             var errors = new List<string>();
-            if (string.IsNullOrWhiteSpace(name))
-            {
-                errors.Add("Имя обязательно");
-            }
-            else if (!System.Text.RegularExpressions.Regex.IsMatch(name, @"^[a-zA-Zа-яА-Я\s]+$"))
-            {
-                errors.Add("Имя может содержать только буквы и пробелы");
-            }
+            if (string.IsNullOrWhiteSpace(name)) errors.Add("Имя обязательно");
             if (string.IsNullOrWhiteSpace(position)) errors.Add("Позиция обязательна");
             if (!int.TryParse(teamIdStr, out int teamId) || teamId <= 0) errors.Add("Команда обязательна");
             if (!DateTime.TryParse(dateAddedStr, out DateTime dateAdded)) errors.Add("Неверный формат даты добавления");
@@ -406,11 +407,13 @@ namespace NBasketball.Controllers
 
             try
             {
+                // Проверка существования команды
                 if (!await _context.Teams.AnyAsync(t => t.Id == teamId))
                 {
                     return Json(new { success = false, message = "Указанная команда не найдена" });
                 }
 
+                // Создаём объект Player вручную
                 var player = new Player
                 {
                     Name = name,
@@ -419,6 +422,7 @@ namespace NBasketball.Controllers
                     DateAdded = dateAdded
                 };
 
+                // Обработка изображения (файл обязателен, поэтому проверка уже пройдена)
                 var fileName = Guid.NewGuid().ToString() + Path.GetExtension(imageFile.FileName);
                 var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/assets", fileName);
                 using (var stream = new FileStream(filePath, FileMode.Create))
@@ -427,9 +431,11 @@ namespace NBasketball.Controllers
                 }
                 player.ImagePath = $"/assets/{fileName}";
 
+                // Добавление в БД
                 _context.Players.Add(player);
                 await _context.SaveChangesAsync();
 
+                // Получение данных команды для ответа
                 var team = await _context.Teams.FirstOrDefaultAsync(t => t.Id == player.TeamId);
                 var addedPlayer = new
                 {
@@ -446,6 +452,7 @@ namespace NBasketball.Controllers
             }
             catch (Exception ex)
             {
+                Console.WriteLine($"Exception: {ex.Message}");
                 return Json(new { success = false, message = $"Ошибка при добавлении игрока: {ex.Message}" });
             }
         }

@@ -212,16 +212,8 @@ $(document).ready(function () {
             var errorSpan = $field.next('.validation-message');
             var fieldId = $field.attr('id');
 
-            if (fieldId === 'Name') {
-                // Регулярное выражение: только буквы и пробелы
-                var lettersOnly = /^[a-zA-Zа-яА-Я\s]*$/;
-                if (!value.trim()) {
-                    errorSpan.text('Пожалуйста, введите имя игрока');
-                } else if (!lettersOnly.test(value)) {
-                    errorSpan.text('Имя может содержать только буквы и пробелы');
-                } else {
-                    errorSpan.text('');
-                }
+            if (fieldId === 'Name' && !value.trim()) {
+                errorSpan.text('Пожалуйста, введите имя игрока');
             } else if (fieldId === 'Position' && !value) {
                 errorSpan.text('Пожалуйста, выберите позицию');
             } else if (fieldId === 'TeamId' && !value) {
@@ -235,18 +227,8 @@ $(document).ready(function () {
             }
         }
 
-        // Ограничение ввода в поле Name (только буквы и пробелы)
-        $('#Name').on('input', function () {
-            var value = $(this).val();
-            var lettersOnly = /^[a-zA-Zа-яА-Я\s]*$/;
-            if (!lettersOnly.test(value)) {
-                $(this).val(value.replace(/[^a-zA-Zа-яА-Я\s]/g, ''));
-            }
-            validateField($(this));
-        });
-
-        // Валидация при изменении других полей
-        $('#Position, #TeamId, #DateAdded, #imageFile').on('input change', function () {
+        // Валидация при изменении каждого поля
+        $('#Name, #Position, #TeamId, #DateAdded, #imageFile').on('input change', function () {
             validateField($(this));
         });
 

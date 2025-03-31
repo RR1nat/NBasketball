@@ -121,10 +121,10 @@ C:\Users\rinat\source\repos\NBasketball\NBasketball\obj\Debug\net8.0\staticwebas
 C:\Users\rinat\source\repos\NBasketball\NBasketball\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.NBasketball.props
 C:\Users\rinat\source\repos\NBasketball\NBasketball\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.NBasketball.props
 C:\Users\rinat\source\repos\NBasketball\NBasketball\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\rinat\source\repos\NBasketball\NBasketball\obj\Debug\net8.0\NBasketb.5C2A3446.Up2Date
 C:\Users\rinat\source\repos\NBasketball\NBasketball\obj\Debug\net8.0\NBasketball.dll
 C:\Users\rinat\source\repos\NBasketball\NBasketball\obj\Debug\net8.0\refint\NBasketball.dll
 C:\Users\rinat\source\repos\NBasketball\NBasketball\obj\Debug\net8.0\NBasketball.pdb
 C:\Users\rinat\source\repos\NBasketball\NBasketball\obj\Debug\net8.0\NBasketball.genruntimeconfig.cache
 C:\Users\rinat\source\repos\NBasketball\NBasketball\obj\Debug\net8.0\ref\NBasketball.dll
-C:\Users\rinat\source\repos\NBasketball\NBasketball\obj\Debug\net8.0\NBasketball.sourcelink.json
-C:\Users\rinat\source\repos\NBasketball\NBasketball\obj\Debug\net8.0\Nbasketb.FB0A1838.Up2Date
+C:\Users\rinat\source\repos\NBasketball\NBasketball\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

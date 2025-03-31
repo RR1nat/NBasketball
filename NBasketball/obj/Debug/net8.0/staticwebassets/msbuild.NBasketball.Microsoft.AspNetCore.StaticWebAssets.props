@@ -2,9 +2,9 @@
   <ItemGroup>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\12.jpg'))">
       <SourceType>Package</SourceType>
-      <SourceId>Nbasketball</SourceId>
+      <SourceId>NBasketball</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Nbasketball</BasePath>
+      <BasePath>_content/NBasketball</BasePath>
       <RelativePath>assets/12.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -18,29 +18,11 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\12.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\17cd536a-4904-4440-a481-e30760c9349c.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>Nbasketball</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Nbasketball</BasePath>
-      <RelativePath>assets/17cd536a-4904-4440-a481-e30760c9349c.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>nhw59rzq88</Fingerprint>
-      <Integrity>RSdMx4Ro5GaURESKdJ4CHb/uwsSEAL1UXgE6y24GKTg=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\17cd536a-4904-4440-a481-e30760c9349c.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\29fd2aca-366e-4991-9ceb-6cbfc2ed5b99.jpg'))">
       <SourceType>Package</SourceType>
-      <SourceId>Nbasketball</SourceId>
+      <SourceId>NBasketball</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Nbasketball</BasePath>
+      <BasePath>_content/NBasketball</BasePath>
       <RelativePath>assets/29fd2aca-366e-4991-9ceb-6cbfc2ed5b99.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -54,29 +36,11 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\29fd2aca-366e-4991-9ceb-6cbfc2ed5b99.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\348fd5b5-3f81-4a6d-9203-265e9a02f329.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>Nbasketball</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Nbasketball</BasePath>
-      <RelativePath>assets/348fd5b5-3f81-4a6d-9203-265e9a02f329.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>wmfq4to8s6</Fingerprint>
-      <Integrity>qGkdbQhAb/hXoRj2AtjloyuLjk38XARo0j7SjMG6FU8=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\348fd5b5-3f81-4a6d-9203-265e9a02f329.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\6082d0fc-90e0-4579-966c-35f5816b0cb6.png'))">
       <SourceType>Package</SourceType>
-      <SourceId>Nbasketball</SourceId>
+      <SourceId>NBasketball</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Nbasketball</BasePath>
+      <BasePath>_content/NBasketball</BasePath>
       <RelativePath>assets/6082d0fc-90e0-4579-966c-35f5816b0cb6.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -92,9 +56,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\6c228bc6-ea32-40cd-ae00-9c5c3afde446.png'))">
       <SourceType>Package</SourceType>
-      <SourceId>Nbasketball</SourceId>
+      <SourceId>NBasketball</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Nbasketball</BasePath>
+      <BasePath>_content/NBasketball</BasePath>
       <RelativePath>assets/6c228bc6-ea32-40cd-ae00-9c5c3afde446.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -110,9 +74,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\acb-logo.png'))">
       <SourceType>Package</SourceType>
-      <SourceId>Nbasketball</SourceId>
+      <SourceId>NBasketball</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Nbasketball</BasePath>
+      <BasePath>_content/NBasketball</BasePath>
       <RelativePath>assets/acb-logo.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -128,9 +92,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\banner.jpg'))">
       <SourceType>Package</SourceType>
-      <SourceId>Nbasketball</SourceId>
+      <SourceId>NBasketball</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Nbasketball</BasePath>
+      <BasePath>_content/NBasketball</BasePath>
       <RelativePath>assets/banner.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -146,9 +110,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\banner2.jpg'))">
       <SourceType>Package</SourceType>
-      <SourceId>Nbasketball</SourceId>
+      <SourceId>NBasketball</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Nbasketball</BasePath>
+      <BasePath>_content/NBasketball</BasePath>
       <RelativePath>assets/banner2.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -164,9 +128,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\banner3.jpg'))">
       <SourceType>Package</SourceType>
-      <SourceId>Nbasketball</SourceId>
+      <SourceId>NBasketball</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Nbasketball</BasePath>
+      <BasePath>_content/NBasketball</BasePath>
       <RelativePath>assets/banner3.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -182,9 +146,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\batler.jpg'))">
       <SourceType>Package</SourceType>
-      <SourceId>Nbasketball</SourceId>
+      <SourceId>NBasketball</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Nbasketball</BasePath>
+      <BasePath>_content/NBasketball</BasePath>
       <RelativePath>assets/batler.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -198,47 +162,11 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\batler.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\d2c81315-d71f-460b-8022-bc0a8ae45da4.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>Nbasketball</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Nbasketball</BasePath>
-      <RelativePath>assets/d2c81315-d71f-460b-8022-bc0a8ae45da4.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>wmfq4to8s6</Fingerprint>
-      <Integrity>qGkdbQhAb/hXoRj2AtjloyuLjk38XARo0j7SjMG6FU8=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\d2c81315-d71f-460b-8022-bc0a8ae45da4.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\d79e0be8-4724-424b-9cca-5f8620b6617d.png'))">
-      <SourceType>Package</SourceType>
-      <SourceId>Nbasketball</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Nbasketball</BasePath>
-      <RelativePath>assets/d79e0be8-4724-424b-9cca-5f8620b6617d.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>crexnv1qk5</Fingerprint>
-      <Integrity>CFSHckZAhPvrJ/UhpWSm72az7QOQSDpnGegw1rMK+Wk=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\d79e0be8-4724-424b-9cca-5f8620b6617d.png'))</OriginalItemSpec>
-    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\euroleague-logo.png'))">
       <SourceType>Package</SourceType>
-      <SourceId>Nbasketball</SourceId>
+      <SourceId>NBasketball</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Nbasketball</BasePath>
+      <BasePath>_content/NBasketball</BasePath>
       <RelativePath>assets/euroleague-logo.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -254,9 +182,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\fa4ddc02-2b80-4567-a71e-cca6a40d18aa.png'))">
       <SourceType>Package</SourceType>
-      <SourceId>Nbasketball</SourceId>
+      <SourceId>NBasketball</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Nbasketball</BasePath>
+      <BasePath>_content/NBasketball</BasePath>
       <RelativePath>assets/fa4ddc02-2b80-4567-a71e-cca6a40d18aa.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -272,9 +200,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\fheart.png'))">
       <SourceType>Package</SourceType>
-      <SourceId>Nbasketball</SourceId>
+      <SourceId>NBasketball</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Nbasketball</BasePath>
+      <BasePath>_content/NBasketball</BasePath>
       <RelativePath>assets/fheart.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -290,9 +218,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\gratis-png-aris-b-c-kymi-grecia-kymis-b-c-aek-b-c-koroivos-b-c-thumbnail.png'))">
       <SourceType>Package</SourceType>
-      <SourceId>Nbasketball</SourceId>
+      <SourceId>NBasketball</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Nbasketball</BasePath>
+      <BasePath>_content/NBasketball</BasePath>
       <RelativePath>assets/gratis-png-aris-b-c-kymi-grecia-kymis-b-c-aek-b-c-koroivos-b-c-thumbnail.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -308,9 +236,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\Greek.png'))">
       <SourceType>Package</SourceType>
-      <SourceId>Nbasketball</SourceId>
+      <SourceId>NBasketball</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Nbasketball</BasePath>
+      <BasePath>_content/NBasketball</BasePath>
       <RelativePath>assets/Greek.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -326,9 +254,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\greekleague-logo.png'))">
       <SourceType>Package</SourceType>
-      <SourceId>Nbasketball</SourceId>
+      <SourceId>NBasketball</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Nbasketball</BasePath>
+      <BasePath>_content/NBasketball</BasePath>
       <RelativePath>assets/greekleague-logo.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -344,9 +272,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\heart.png'))">
       <SourceType>Package</SourceType>
-      <SourceId>Nbasketball</SourceId>
+      <SourceId>NBasketball</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Nbasketball</BasePath>
+      <BasePath>_content/NBasketball</BasePath>
       <RelativePath>assets/heart.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -362,9 +290,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\israelileague-logo.png'))">
       <SourceType>Package</SourceType>
-      <SourceId>Nbasketball</SourceId>
+      <SourceId>NBasketball</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Nbasketball</BasePath>
+      <BasePath>_content/NBasketball</BasePath>
       <RelativePath>assets/israelileague-logo.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -380,9 +308,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\italianleague-logo.png'))">
       <SourceType>Package</SourceType>
-      <SourceId>Nbasketball</SourceId>
+      <SourceId>NBasketball</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Nbasketball</BasePath>
+      <BasePath>_content/NBasketball</BasePath>
       <RelativePath>assets/italianleague-logo.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -398,9 +326,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\joel.jpg'))">
       <SourceType>Package</SourceType>
-      <SourceId>Nbasketball</SourceId>
+      <SourceId>NBasketball</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Nbasketball</BasePath>
+      <BasePath>_content/NBasketball</BasePath>
       <RelativePath>assets/joel.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -416,9 +344,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\kavai.jpg'))">
       <SourceType>Package</SourceType>
-      <SourceId>Nbasketball</SourceId>
+      <SourceId>NBasketball</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Nbasketball</BasePath>
+      <BasePath>_content/NBasketball</BasePath>
       <RelativePath>assets/kavai.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -434,9 +362,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\kevin.jpg'))">
       <SourceType>Package</SourceType>
-      <SourceId>Nbasketball</SourceId>
+      <SourceId>NBasketball</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Nbasketball</BasePath>
+      <BasePath>_content/NBasketball</BasePath>
       <RelativePath>assets/kevin.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -452,9 +380,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\LA.jpg'))">
       <SourceType>Package</SourceType>
-      <SourceId>Nbasketball</SourceId>
+      <SourceId>NBasketball</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Nbasketball</BasePath>
+      <BasePath>_content/NBasketball</BasePath>
       <RelativePath>assets/LA.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -470,9 +398,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\lebron.jpg'))">
       <SourceType>Package</SourceType>
-      <SourceId>Nbasketball</SourceId>
+      <SourceId>NBasketball</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Nbasketball</BasePath>
+      <BasePath>_content/NBasketball</BasePath>
       <RelativePath>assets/lebron.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -488,9 +416,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\luka.jpg'))">
       <SourceType>Package</SourceType>
-      <SourceId>Nbasketball</SourceId>
+      <SourceId>NBasketball</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Nbasketball</BasePath>
+      <BasePath>_content/NBasketball</BasePath>
       <RelativePath>assets/luka.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -506,9 +434,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\moskow.jpg'))">
       <SourceType>Package</SourceType>
-      <SourceId>Nbasketball</SourceId>
+      <SourceId>NBasketball</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Nbasketball</BasePath>
+      <BasePath>_content/NBasketball</BasePath>
       <RelativePath>assets/moskow.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -524,9 +452,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\nba-logo.png'))">
       <SourceType>Package</SourceType>
-      <SourceId>Nbasketball</SourceId>
+      <SourceId>NBasketball</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Nbasketball</BasePath>
+      <BasePath>_content/NBasketball</BasePath>
       <RelativePath>assets/nba-logo.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -542,9 +470,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\nikola.jpg'))">
       <SourceType>Package</SourceType>
-      <SourceId>Nbasketball</SourceId>
+      <SourceId>NBasketball</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Nbasketball</BasePath>
+      <BasePath>_content/NBasketball</BasePath>
       <RelativePath>assets/nikola.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -560,9 +488,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\pol.jpg'))">
       <SourceType>Package</SourceType>
-      <SourceId>Nbasketball</SourceId>
+      <SourceId>NBasketball</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Nbasketball</BasePath>
+      <BasePath>_content/NBasketball</BasePath>
       <RelativePath>assets/pol.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -578,9 +506,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\RB.jpg'))">
       <SourceType>Package</SourceType>
-      <SourceId>Nbasketball</SourceId>
+      <SourceId>NBasketball</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Nbasketball</BasePath>
+      <BasePath>_content/NBasketball</BasePath>
       <RelativePath>assets/RB.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -596,9 +524,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\steph.jpg'))">
       <SourceType>Package</SourceType>
-      <SourceId>Nbasketball</SourceId>
+      <SourceId>NBasketball</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Nbasketball</BasePath>
+      <BasePath>_content/NBasketball</BasePath>
       <RelativePath>assets/steph.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -614,9 +542,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\teytum.jpg'))">
       <SourceType>Package</SourceType>
-      <SourceId>Nbasketball</SourceId>
+      <SourceId>NBasketball</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Nbasketball</BasePath>
+      <BasePath>_content/NBasketball</BasePath>
       <RelativePath>assets/teytum.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -632,9 +560,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\training1.jpg'))">
       <SourceType>Package</SourceType>
-      <SourceId>Nbasketball</SourceId>
+      <SourceId>NBasketball</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Nbasketball</BasePath>
+      <BasePath>_content/NBasketball</BasePath>
       <RelativePath>assets/training1.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -650,9 +578,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\training9.jpg'))">
       <SourceType>Package</SourceType>
-      <SourceId>Nbasketball</SourceId>
+      <SourceId>NBasketball</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Nbasketball</BasePath>
+      <BasePath>_content/NBasketball</BasePath>
       <RelativePath>assets/training9.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -668,9 +596,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\yanis.jpg'))">
       <SourceType>Package</SourceType>
-      <SourceId>Nbasketball</SourceId>
+      <SourceId>NBasketball</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Nbasketball</BasePath>
+      <BasePath>_content/NBasketball</BasePath>
       <RelativePath>assets/yanis.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -686,9 +614,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\style.css'))">
       <SourceType>Package</SourceType>
-      <SourceId>Nbasketball</SourceId>
+      <SourceId>NBasketball</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Nbasketball</BasePath>
+      <BasePath>_content/NBasketball</BasePath>
       <RelativePath>css/style.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -704,9 +632,9 @@
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))">
       <SourceType>Package</SourceType>
-      <SourceId>Nbasketball</SourceId>
+      <SourceId>NBasketball</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Nbasketball</BasePath>
+      <BasePath>_content/NBasketball</BasePath>
       <RelativePath>js/site.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -714,35 +642,17 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>3akp2n2rcm</Fingerprint>
-      <Integrity>Fe8y9O5pO8Sma2Pt/trN7oeqeF/bQb2k3B/q2VH9XYk=</Integrity>
+      <Fingerprint>neybi9zdfa</Fingerprint>
+      <Integrity>EfeKMqTjQkW/Xci4w5w7diFp32zPv6mNprIRDgYQR1U=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\teams\cska-moscow.html'))">
-      <SourceType>Package</SourceType>
-      <SourceId>Nbasketball</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Nbasketball</BasePath>
-      <RelativePath>teams/cska-moscow.html</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>dzwuhagwpk</Fingerprint>
-      <Integrity>h+Qp91y86wHJTVKjMlvyW8FrGSXNb6c5wvIL3OKV+6w=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\teams\cska-moscow.html'))</OriginalItemSpec>
-    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\teams\los-angeles-lakers.html'))">
       <SourceType>Package</SourceType>
-      <SourceId>Nbasketball</SourceId>
+      <SourceId>NBasketball</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Nbasketball</BasePath>
+      <BasePath>_content/NBasketball</BasePath>
       <RelativePath>teams/los-angeles-lakers.html</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
@@ -750,83 +660,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>txbt2ovdnd</Fingerprint>
-      <Integrity>T0whTu4jxY+AY1egVSw2ZDvwAvili+cJdfPVtcGcUg0=</Integrity>
+      <Fingerprint>twca7g4sri</Fingerprint>
+      <Integrity>3UbzbDBN0sp07vF63DFmfH7+OxAgIIbEdNN7I3ykMpY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\teams\los-angeles-lakers.html'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\teams\maccabi-tel-aviv.html'))">
-      <SourceType>Package</SourceType>
-      <SourceId>Nbasketball</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Nbasketball</BasePath>
-      <RelativePath>teams/maccabi-tel-aviv.html</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>enzdgotv6i</Fingerprint>
-      <Integrity>RgpwrIJFp63pvbJg7mhxPTg7o6gW8MN1wzB48NrjaXc=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\teams\maccabi-tel-aviv.html'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\teams\panathinaikos.html'))">
-      <SourceType>Package</SourceType>
-      <SourceId>Nbasketball</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Nbasketball</BasePath>
-      <RelativePath>teams/panathinaikos.html</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>tsxd5nxgu9</Fingerprint>
-      <Integrity>oyKam/ZsOy2snMTmSVqPe4EbQFnj8raP7oE1XYEfegw=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\teams\panathinaikos.html'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\teams\real-madrid.html'))">
-      <SourceType>Package</SourceType>
-      <SourceId>Nbasketball</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Nbasketball</BasePath>
-      <RelativePath>teams/real-madrid.html</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>fqbq799r0l</Fingerprint>
-      <Integrity>GcfdX9hK2IHd0OzoPlVxxOrndMtmhqMEUgDnQPd7QFY=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\teams\real-madrid.html'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\teams\virtus-bologna.html'))">
-      <SourceType>Package</SourceType>
-      <SourceId>Nbasketball</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Nbasketball</BasePath>
-      <RelativePath>teams/virtus-bologna.html</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>0h2v1xy2fu</Fingerprint>
-      <Integrity>RIMiUgCjJkksmnB8zo6rzQ8J6At1IygZFb3+yuAzEFQ=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\teams\virtus-bologna.html'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>
