@@ -44,7 +44,7 @@ namespace NBasketball.Models
             modelBuilder.Entity<Player>()
                 .Property(p => p.DateAdded)
                 .HasColumnName("date_added")
-                .HasDefaultValueSql("CURRENT_TIMESTAMP");
+                .HasDefaultValueSql("DATE");
 
             // Начальное заполнение данными для Teams
             modelBuilder.Entity<Team>().HasData(
