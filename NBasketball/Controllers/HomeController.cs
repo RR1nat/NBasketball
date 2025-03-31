@@ -406,10 +406,17 @@ namespace NBasketball.Controllers
             try
             {
                 // Проверка существования команды
-                if (!await _context.Teams.AnyAsync(t => t.Id == teamId))
+                Console.WriteLine($"Проверяем TeamId: {teamId}");
+                var teamExists = await _context.Teams.AnyAsync(t => t.Id == teamId);
+                if (!teamExists)
                 {
+                    Console.WriteLine($"Команда с TeamId {teamId} не найдена");
                     return Json(new { success = false, message = "Указанная команда не найдена" });
                 }
+
+                // Логируем найденную команду
+                var team = await _context.Teams.FirstOrDefaultAsync(t => t.Id == teamId);
+                Console.WriteLine($"Найдена команда: Id={team?.Id}, Name={team?.Name}");
 
                 // Создаём объект Player вручную
                 var player = new Player
@@ -420,6 +427,9 @@ namespace NBasketball.Controllers
                     DateAdded = DateTime.Now.Date // Устанавливаем текущую дату без времени
                 };
 
+                // Логируем данные игрока перед сохранением
+                Console.WriteLine($"Добавляем игрока: Name={player.Name}, Position={player.Position}, TeamId={player.TeamId}, DateAdded={player.DateAdded}, ImagePath={player.ImagePath}");
+
                 // Обработка изображения
                 var fileName = Guid.NewGuid().ToString() + Path.GetExtension(imageFile.FileName);
                 var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/assets", fileName);
@@ -429,12 +439,13 @@ namespace NBasketball.Controllers
                 }
                 player.ImagePath = $"/assets/{fileName}";
 
-                // Добавление в БД без загрузки навигационного свойства Team
-                _context.Entry(player).State = EntityState.Added;
+                // Добавление в БД
+                Console.WriteLine("Добавляем игрока в базу данных...");
+                _context.Players.Add(player);
                 await _context.SaveChangesAsync();
+                Console.WriteLine("Игрок успешно добавлен в базу данных");
 
                 // Получение данных команды для ответа
-                var team = await _context.Teams.FirstOrDefaultAsync(t => t.Id == player.TeamId);
                 var addedPlayer = new
                 {
                     Id = player.Id,
@@ -448,9 +459,16 @@ namespace NBasketball.Controllers
 
                 return Json(new { success = true, message = "Игрок успешно добавлен!", player = addedPlayer });
             }
+            catch (DbUpdateException ex)
+            {
+                // Логируем точную причину ошибки
+                var errorMessage = ex.InnerException?.Message ?? ex.Message;
+                Console.WriteLine($"Ошибка базы данных: {errorMessage}");
+                return Json(new { success = false, message = $"Ошибка при добавлении игрока: {errorMessage}" });
+            }
             catch (Exception ex)
             {
-                Console.WriteLine($"Exception: {ex.Message}\nStackTrace: {ex.StackTrace}");
+                Console.WriteLine($"Общая ошибка: {ex.Message}");
                 return Json(new { success = false, message = $"Ошибка при добавлении игрока: {ex.Message}" });
             }
         }
