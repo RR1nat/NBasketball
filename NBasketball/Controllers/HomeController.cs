@@ -50,21 +50,29 @@ namespace NBasketball.Controllers
         [HttpGet]
         public IActionResult AddPlayer()
         {
-            var teams = _context.Teams.ToList();
-            Console.WriteLine($"Количество команд: {teams.Count}");
-            ViewBag.Teams = teams;
+            try
+            {
+                var teams = _context.Teams.ToList();
+                Console.WriteLine($"Количество команд: {teams.Count}");
+                ViewBag.Teams = teams;
 
-            var model = new Player();
-            if (teams.Any())
-            {
-                model.TeamId = teams.First().Id; // Устанавливаем первую команду по умолчанию
-                Console.WriteLine($"Установлена команда по умолчанию: ID = {model.TeamId}, Name = {teams.First().Name}");
+                var model = new Player();
+                if (teams.Any())
+                {
+                    model.TeamId = teams.First().Id;
+                    Console.WriteLine($"Установлена команда по умолчанию: ID = {model.TeamId}, Name = {teams.First().Name}");
+                }
+                else
+                {
+                    Console.WriteLine("Команды не найдены, TeamId не установлен");
+                }
+                return View(model);
             }
-            else
+            catch (Exception ex)
             {
-                Console.WriteLine("Команды не найдены, TeamId не установлен");
+                Console.WriteLine($"Error in AddPlayer: {ex.Message}\nStackTrace: {ex.StackTrace}");
+                return StatusCode(500, "Internal server error: " + ex.Message);
             }
-            return View(model);
         }
 
         [HttpPost]
