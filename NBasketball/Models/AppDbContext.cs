@@ -44,7 +44,8 @@ namespace NBasketball.Models
             modelBuilder.Entity<Player>()
                 .Property(p => p.DateAdded)
                 .HasColumnName("date_added")
-                .HasColumnType("DATE"); // Явно указываем тип DATE
+                .HasColumnType("DATE") // Явно указываем тип DATE
+                .IsRequired();
 
             // Начальное заполнение данными для Teams
             modelBuilder.Entity<Team>().HasData(

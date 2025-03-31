@@ -420,17 +420,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-dpGXkbIKlCjFPY74pD0MNNfHWs4K7beObHjVp8lRlCQ="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"7050"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022dpGXkbIKlCjFPY74pD0MNNfHWs4K7beObHjVp8lRlCQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Mar 2025 17:21:57 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NBasketball/js/site.17v8lgyr9d.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"17v8lgyr9d"},{"Name":"integrity","Value":"sha256-E1vnZEUfxB/JfVM8Bv6Pev3KrUYlNqvpT8AHxFWS/58="},{"Name":"label","Value":"_content/NBasketball/js/site.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"24285"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022E1vnZEUfxB/JfVM8Bv6Pev3KrUYlNqvpT8AHxFWS/58=\u0022"},{"Name":"Last-Modified","Value":"Mon, 31 Mar 2025 13:18:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/NBasketball/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-EfeKMqTjQkW/Xci4w5w7diFp32zPv6mNprIRDgYQR1U="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"24586"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022EfeKMqTjQkW/Xci4w5w7diFp32zPv6mNprIRDgYQR1U=\u0022"},{"Name":"Last-Modified","Value":"Mon, 31 Mar 2025 11:10:49 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/NBasketball/js/site.neybi9zdfa.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"neybi9zdfa"},{"Name":"integrity","Value":"sha256-EfeKMqTjQkW/Xci4w5w7diFp32zPv6mNprIRDgYQR1U="},{"Name":"label","Value":"_content/NBasketball/js/site.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"24586"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022EfeKMqTjQkW/Xci4w5w7diFp32zPv6mNprIRDgYQR1U=\u0022"},{"Name":"Last-Modified","Value":"Mon, 31 Mar 2025 11:10:49 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-E1vnZEUfxB/JfVM8Bv6Pev3KrUYlNqvpT8AHxFWS/58="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"24285"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022E1vnZEUfxB/JfVM8Bv6Pev3KrUYlNqvpT8AHxFWS/58=\u0022"},{"Name":"Last-Modified","Value":"Mon, 31 Mar 2025 13:18:00 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/NBasketball/teams/los-angeles-lakers.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\teams\los-angeles-lakers.html'))</AssetFile>
