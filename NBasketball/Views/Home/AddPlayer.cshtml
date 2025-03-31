@@ -25,17 +25,6 @@
         <span asp-validation-for="Position" class="validation-message"></span>
     </div>
     <div class="form-group">
-        <label asp-for="TeamId">Команда</label>
-        <select asp-for="TeamId" class="form-control">
-            <option value="">Выберите команду</option>
-            @foreach (var team in ViewBag.Teams)
-            {
-                <option value="@team.Id">@team.Name</option>
-            }
-        </select>
-        <span asp-validation-for="TeamId" class="validation-message"></span>
-    </div>
-    <div class="form-group">
         <label for="imageFile">Фото игрока</label>
         <input type="file" class="form-control" id="imageFile" name="imageFile" accept="image/*" />
         <span class="validation-message" id="ImageFileError"></span>
@@ -82,7 +71,6 @@
                                 response.errors.forEach(function (error) {
                                     if (error.toLowerCase().includes("имя")) $("#Name").next(".validation-message").text(error);
                                     if (error.toLowerCase().includes("позиция")) $("#Position").next(".validation-message").text(error);
-                                    if (error.toLowerCase().includes("команда")) $("#TeamId").next(".validation-message").text(error);
                                     if (error.toLowerCase().includes("фото")) $("#ImageFileError").text(error);
                                 });
                             }

@@ -52,20 +52,10 @@ namespace NBasketball.Controllers
         {
             try
             {
-                var teams = _context.Teams.ToList();
-                Console.WriteLine($"Количество команд: {teams.Count}");
-                ViewBag.Teams = teams;
+                // Временно убираем загрузку команд
+                ViewBag.Teams = new List<Team>(); // Пустой список, чтобы представление не ломалось
 
                 var model = new Player();
-                if (teams.Any())
-                {
-                    model.TeamId = teams.First().Id;
-                    Console.WriteLine($"Установлена команда по умолчанию: ID = {model.TeamId}, Name = {teams.First().Name}");
-                }
-                else
-                {
-                    Console.WriteLine("Команды не найдены, TeamId не установлен");
-                }
                 return View(model);
             }
             catch (Exception ex)
@@ -78,9 +68,12 @@ namespace NBasketball.Controllers
         [HttpPost]
         public async Task<IActionResult> AddPlayer(Player player, IFormFile imageFile)
         {
+            // Устанавливаем TeamId и DateAdded
+            player.TeamId = 1; // Фиксированное значение, например, "Los Angeles Lakers"
+            player.DateAdded = DateTime.Now.Date;
+
             if (!ModelState.IsValid)
             {
-                ViewBag.Teams = _context.Teams.ToList();
                 return View(player); // Вернуть форму с ошибками
             }
 
@@ -94,9 +87,6 @@ namespace NBasketball.Controllers
                 }
                 player.ImagePath = $"/assets/{fileName}";
             }
-
-            // Устанавливаем текущую дату без времени
-            player.DateAdded = DateTime.Now.Date;
 
             _context.Players.Add(player);
             await _context.SaveChangesAsync();
@@ -394,7 +384,8 @@ namespace NBasketball.Controllers
             Console.WriteLine($"Name: {player.Name}, Position: {player.Position}, TeamId: {player.TeamId}, DateAdded: {player.DateAdded}");
             if (imageFile != null) Console.WriteLine($"ImageFile: {imageFile.FileName}, Size: {imageFile.Length}");
 
-            // Устанавливаем DateAdded, так как оно не передаётся из формы
+            // Устанавливаем TeamId и DateAdded
+            player.TeamId = 1; // Фиксированное значение, например, "Los Angeles Lakers"
             player.DateAdded = DateTime.Now.Date;
 
             // Проверяем валидацию модели
@@ -451,7 +442,7 @@ namespace NBasketball.Controllers
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Exception: {ex.Message}");
+                Console.WriteLine($"Exception: {ex.Message}\nStackTrace: {ex.StackTrace}");
                 return Json(new { success = false, message = $"Ошибка при добавлении игрока: {ex.Message}" });
             }
         }
