@@ -391,7 +391,7 @@ namespace NBasketball.Controllers
             var name = Request.Form["Name"].ToString();
             var position = Request.Form["Position"].ToString();
             var teamIdStr = Request.Form["TeamId"].ToString();
-            var dateAddedStr = Request.Form["DateAdded"].ToString();
+            var dateAddedStr = Request.Form["date_added"].ToString();
 
             var errors = new List<string>();
             if (string.IsNullOrWhiteSpace(name)) errors.Add("Имя обязательно");
