@@ -40,11 +40,11 @@ namespace NBasketball.Models
                 .HasForeignKey(f => f.PlayerId)
                 .OnDelete(DeleteBehavior.Cascade);
 
-            // Настройка столбца DateAdded с значением по умолчанию
+            // Настройка столбца DateAdded
             modelBuilder.Entity<Player>()
                 .Property(p => p.DateAdded)
                 .HasColumnName("date_added")
-                .HasDefaultValueSql("DATE");
+                .HasColumnType("DATE"); // Явно указываем тип DATE
 
             // Начальное заполнение данными для Teams
             modelBuilder.Entity<Team>().HasData(
@@ -68,7 +68,6 @@ namespace NBasketball.Models
 
             // Начальное заполнение данными для Players
             modelBuilder.Entity<Player>().HasData(
-                // Игроки для NBA
                 new Player
                 {
                     Id = 1,
@@ -76,7 +75,7 @@ namespace NBasketball.Models
                     Position = "Форвард",
                     TeamId = 1,
                     ImagePath = "/assets/lebron.jpg",
-                    DateAdded = DateTime.SpecifyKind(DateTime.Parse("2024-04-01"), DateTimeKind.Utc)
+                    DateAdded = DateTime.Parse("2024-04-01").Date
                 },
                 new Player
                 {
@@ -85,7 +84,7 @@ namespace NBasketball.Models
                     Position = "Нападающий",
                     TeamId = 1,
                     ImagePath = "/assets/kavai.jpg",
-                    DateAdded = DateTime.SpecifyKind(DateTime.Parse("2024-04-24"), DateTimeKind.Utc)
+                    DateAdded = DateTime.Parse("2024-04-24").Date
                 },
                 new Player
                 {
@@ -94,7 +93,7 @@ namespace NBasketball.Models
                     Position = "Нападающий",
                     TeamId = 1,
                     ImagePath = "/assets/pol.jpg",
-                    DateAdded = DateTime.SpecifyKind(DateTime.Parse("2024-04-26"), DateTimeKind.Utc)
+                    DateAdded = DateTime.Parse("2024-04-26").Date
                 },
                 new Player
                 {
@@ -103,7 +102,7 @@ namespace NBasketball.Models
                     Position = "Нападающий",
                     TeamId = 3,
                     ImagePath = "/assets/batler.jpg",
-                    DateAdded = DateTime.SpecifyKind(DateTime.Parse("2024-04-28"), DateTimeKind.Utc)
+                    DateAdded = DateTime.Parse("2024-04-28").Date
                 },
                 new Player
                 {
@@ -112,7 +111,7 @@ namespace NBasketball.Models
                     Position = "Защитник",
                     TeamId = 2,
                     ImagePath = "/assets/steph.jpg",
-                    DateAdded = DateTime.SpecifyKind(DateTime.Parse("2024-04-05"), DateTimeKind.Utc)
+                    DateAdded = DateTime.Parse("2024-04-05").Date
                 },
                 new Player
                 {
@@ -121,7 +120,7 @@ namespace NBasketball.Models
                     Position = "Форвард",
                     TeamId = 3,
                     ImagePath = "/assets/kevin.jpg",
-                    DateAdded = DateTime.SpecifyKind(DateTime.Parse("2024-04-10"), DateTimeKind.Utc)
+                    DateAdded = DateTime.Parse("2024-04-10").Date
                 },
                 new Player
                 {
@@ -130,7 +129,7 @@ namespace NBasketball.Models
                     Position = "Форвард",
                     TeamId = 2,
                     ImagePath = "/assets/yanis.jpg",
-                    DateAdded = DateTime.SpecifyKind(DateTime.Parse("2024-04-12"), DateTimeKind.Utc)
+                    DateAdded = DateTime.Parse("2024-04-12").Date
                 },
                 new Player
                 {
@@ -139,9 +138,8 @@ namespace NBasketball.Models
                     Position = "Центровой",
                     TeamId = 3,
                     ImagePath = "/assets/nikola.jpg",
-                    DateAdded = DateTime.SpecifyKind(DateTime.Parse("2024-04-15"), DateTimeKind.Utc)
+                    DateAdded = DateTime.Parse("2024-04-15").Date
                 },
-                // Игроки для ACB
                 new Player
                 {
                     Id = 9,
@@ -149,7 +147,7 @@ namespace NBasketball.Models
                     Position = "Защитник",
                     TeamId = 6,
                     ImagePath = "/assets/llull.jpg",
-                    DateAdded = DateTime.SpecifyKind(DateTime.Parse("2024-04-18"), DateTimeKind.Utc)
+                    DateAdded = DateTime.Parse("2024-04-18").Date
                 },
                 new Player
                 {
@@ -158,7 +156,7 @@ namespace NBasketball.Models
                     Position = "Форвард",
                     TeamId = 7,
                     ImagePath = "/assets/mirotic.jpg",
-                    DateAdded = DateTime.SpecifyKind(DateTime.Parse("2024-04-20"), DateTimeKind.Utc)
+                    DateAdded = DateTime.Parse("2024-04-20").Date
                 },
                 new Player
                 {
@@ -167,7 +165,7 @@ namespace NBasketball.Models
                     Position = "Защитник",
                     TeamId = 7,
                     ImagePath = "/assets/satoransky.jpg",
-                    DateAdded = DateTime.SpecifyKind(DateTime.Parse("2024-04-22"), DateTimeKind.Utc)
+                    DateAdded = DateTime.Parse("2024-04-22").Date
                 },
                 new Player
                 {
@@ -176,9 +174,8 @@ namespace NBasketball.Models
                     Position = "Защитник",
                     TeamId = 8,
                     ImagePath = "/assets/huertas.jpg",
-                    DateAdded = DateTime.SpecifyKind(DateTime.Parse("2024-04-23"), DateTimeKind.Utc)
+                    DateAdded = DateTime.Parse("2024-04-23").Date
                 },
-                // Игроки для Евролиги
                 new Player
                 {
                     Id = 13,
@@ -186,7 +183,7 @@ namespace NBasketball.Models
                     Position = "Защитник",
                     TeamId = 10,
                     ImagePath = "/assets/decolo.jpg",
-                    DateAdded = DateTime.SpecifyKind(DateTime.Parse("2024-04-25"), DateTimeKind.Utc)
+                    DateAdded = DateTime.Parse("2024-04-25").Date
                 },
                 new Player
                 {
@@ -195,7 +192,7 @@ namespace NBasketball.Models
                     Position = "Защитник",
                     TeamId = 11,
                     ImagePath = "/assets/micic.jpg",
-                    DateAdded = DateTime.SpecifyKind(DateTime.Parse("2024-04-26"), DateTimeKind.Utc)
+                    DateAdded = DateTime.Parse("2024-04-26").Date
                 },
                 new Player
                 {
@@ -204,7 +201,7 @@ namespace NBasketball.Models
                     Position = "Центровой",
                     TeamId = 12,
                     ImagePath = "/assets/vesely.jpg",
-                    DateAdded = DateTime.SpecifyKind(DateTime.Parse("2024-04-27"), DateTimeKind.Utc)
+                    DateAdded = DateTime.Parse("2024-04-27").Date
                 },
                 new Player
                 {
@@ -213,7 +210,7 @@ namespace NBasketball.Models
                     Position = "Защитник",
                     TeamId = 13,
                     ImagePath = "/assets/sloukas.jpg",
-                    DateAdded = DateTime.SpecifyKind(DateTime.Parse("2024-04-28"), DateTimeKind.Utc)
+                    DateAdded = DateTime.Parse("2024-04-28").Date
                 }
             );
         }
