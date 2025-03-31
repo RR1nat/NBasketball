@@ -43,8 +43,8 @@ namespace NBasketball.Models
             // Настройка столбца DateAdded
             modelBuilder.Entity<Player>()
                 .Property(p => p.DateAdded)
-                .HasColumnName("date_added");
-                //.HasColumnType("DATE"); // Явно указываем тип DATE
+                .HasColumnName("date_added")
+                .HasColumnType("DATE"); // Явно указываем тип DATE
 
             // Начальное заполнение данными для Teams
             modelBuilder.Entity<Team>().HasData(

@@ -14,6 +14,6 @@ namespace NBasketball.Models
         public int TeamId { get; set; }
         public Team Team { get; set; } // Навигационное свойство, не требует заполнения в форме
         public string ImagePath { get; set; } // Необязательное поле
-        public DateTime DateAdded { get; set; }
+        public DateTime? DateAdded { get; set; }
     }
 }
