@@ -5,8 +5,16 @@
       "PackagePath": "staticwebassets\\assets\\12.jpg"
     },
     {
+      "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\17cd536a-4904-4440-a481-e30760c9349c.jpg",
+      "PackagePath": "staticwebassets\\assets\\17cd536a-4904-4440-a481-e30760c9349c.jpg"
+    },
+    {
       "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\29fd2aca-366e-4991-9ceb-6cbfc2ed5b99.jpg",
       "PackagePath": "staticwebassets\\assets\\29fd2aca-366e-4991-9ceb-6cbfc2ed5b99.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\348fd5b5-3f81-4a6d-9203-265e9a02f329.jpg",
+      "PackagePath": "staticwebassets\\assets\\348fd5b5-3f81-4a6d-9203-265e9a02f329.jpg"
     },
     {
       "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\6082d0fc-90e0-4579-966c-35f5816b0cb6.png",
@@ -47,6 +55,14 @@
     {
       "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\batler.jpg",
       "PackagePath": "staticwebassets\\assets\\batler.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\d2c81315-d71f-460b-8022-bc0a8ae45da4.jpg",
+      "PackagePath": "staticwebassets\\assets\\d2c81315-d71f-460b-8022-bc0a8ae45da4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\d79e0be8-4724-424b-9cca-5f8620b6617d.png",
+      "PackagePath": "staticwebassets\\assets\\d79e0be8-4724-424b-9cca-5f8620b6617d.png"
     },
     {
       "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\assets\\euroleague-logo.png",
@@ -145,28 +161,48 @@
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
+      "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\teams\\cska-moscow.html",
+      "PackagePath": "staticwebassets\\teams\\cska-moscow.html"
+    },
+    {
       "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\teams\\los-angeles-lakers.html",
       "PackagePath": "staticwebassets\\teams\\los-angeles-lakers.html"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.NBasketball.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\teams\\maccabi-tel-aviv.html",
+      "PackagePath": "staticwebassets\\teams\\maccabi-tel-aviv.html"
+    },
+    {
+      "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\teams\\panathinaikos.html",
+      "PackagePath": "staticwebassets\\teams\\panathinaikos.html"
+    },
+    {
+      "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\teams\\real-madrid.html",
+      "PackagePath": "staticwebassets\\teams\\real-madrid.html"
+    },
+    {
+      "Id": "C:\\Users\\rinat\\source\\repos\\NBasketball\\NBasketball\\wwwroot\\teams\\virtus-bologna.html",
+      "PackagePath": "staticwebassets\\teams\\virtus-bologna.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Nbasketball.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.NBasketball.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Nbasketball.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.NBasketball.props",
-      "PackagePath": "build\\NBasketball.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Nbasketball.props",
+      "PackagePath": "build\\Nbasketball.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.NBasketball.props",
-      "PackagePath": "buildMultiTargeting\\NBasketball.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Nbasketball.props",
+      "PackagePath": "buildMultiTargeting\\Nbasketball.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.NBasketball.props",
-      "PackagePath": "buildTransitive\\NBasketball.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Nbasketball.props",
+      "PackagePath": "buildTransitive\\Nbasketball.props"
     }
   ],
   "ElementsToRemove": []

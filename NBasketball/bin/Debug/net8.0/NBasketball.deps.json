@@ -6,13 +6,14 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v8.0": {
-      "NBasketball/1.0.0": {
+      "Nbasketball/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "8.0.0",
+          "Microsoft.EntityFrameworkCore.Tools": "8.0.0",
           "MySql.EntityFrameworkCore": "8.0.0"
         },
         "runtime": {
-          "NBasketball.dll": {}
+          "Nbasketball.dll": {}
         }
       },
       "BouncyCastle.Cryptography/2.2.1": {
@@ -345,6 +346,11 @@
             "assemblyVersion": "8.0.0.0",
             "fileVersion": "8.0.23.53103"
           }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Tools/8.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "8.0.0"
         }
       },
       "Microsoft.Extensions.Caching.Abstractions/8.0.0": {
@@ -747,7 +753,7 @@
     }
   },
   "libraries": {
-    "NBasketball/1.0.0": {
+    "Nbasketball/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -870,6 +876,13 @@
       "sha512": "sha512-fFKkr24cYc7Zw5T6DC4tEyOEPgPbq23BBmym1r9kn4ET9F3HKaetpOeQtV2RryYyUxEeNkJuxgfiZHTisqZc+A==",
       "path": "microsoft.entityframeworkcore.relational/8.0.0",
       "hashPath": "microsoft.entityframeworkcore.relational.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Tools/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zRdaXiiB1gEA0b+AJTd2+drh78gkEA4HyZ1vqNZrKq4xwW8WwavSiQsoeb1UsIMZkocLMBbhQYWClkZzuTKEgQ==",
+      "path": "microsoft.entityframeworkcore.tools/8.0.0",
+      "hashPath": "microsoft.entityframeworkcore.tools.8.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Caching.Abstractions/8.0.0": {
       "type": "package",
