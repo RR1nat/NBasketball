@@ -96,8 +96,6 @@ namespace NBasketball.Controllers
             return RedirectToAction("Players");
         }
 
-
-
         [HttpGet]
         public IActionResult GetTeamsByLeague(string league)
         {
@@ -431,8 +429,8 @@ namespace NBasketball.Controllers
                 }
                 player.ImagePath = $"/assets/{fileName}";
 
-                // Добавление в БД
-                _context.Players.Add(player);
+                // Добавление в БД без загрузки навигационного свойства Team
+                _context.Entry(player).State = EntityState.Added;
                 await _context.SaveChangesAsync();
 
                 // Получение данных команды для ответа
@@ -452,7 +450,7 @@ namespace NBasketball.Controllers
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Exception: {ex.Message}");
+                Console.WriteLine($"Exception: {ex.Message}\nStackTrace: {ex.StackTrace}");
                 return Json(new { success = false, message = $"Ошибка при добавлении игрока: {ex.Message}" });
             }
         }

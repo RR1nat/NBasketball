@@ -1,4 +1,4 @@
-﻿
+﻿@model NBasketball.Models.Player
 
 @{
     ViewData["Title"] = "Добавить игрока";
@@ -30,7 +30,7 @@
             <option value="">Выберите команду</option>
             @foreach (var team in ViewBag.Teams)
             {
-            <option value="@team.Id">@team.Name</option>
+                <option value="@team.Id">@team.Name</option>
             }
         </select>
         <span class="validation-message" id="TeamIdError"></span>

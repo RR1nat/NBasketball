@@ -218,8 +218,6 @@ $(document).ready(function () {
                 errorSpan.text('Пожалуйста, выберите позицию');
             } else if (fieldId === 'TeamId' && !value) {
                 errorSpan.text('Пожалуйста, выберите команду');
-            } else if (fieldId === 'DateAdded' && !value) {
-                errorSpan.text('Пожалуйста, выберите дату добавления');
             } else if (fieldId === 'imageFile' && !$field[0].files[0]) {
                 errorSpan.text('Пожалуйста, загрузите фото игрока');
             } else {
@@ -228,12 +226,12 @@ $(document).ready(function () {
         }
 
         // Валидация при изменении каждого поля
-        $('#Name, #Position, #TeamId, #DateAdded, #imageFile').on('input change', function () {
+        $('#Name, #Position, #TeamId, #imageFile').on('input change', function () {
             validateField($(this));
         });
 
         // Проверка всех полей при загрузке страницы
-        $('#Name, #Position, #TeamId, #DateAdded, #imageFile').each(function () {
+        $('#Name, #Position, #TeamId, #imageFile').each(function () {
             validateField($(this));
         });
 
@@ -242,7 +240,7 @@ $(document).ready(function () {
 
             // Проверка всех полей перед отправкой
             var errors = [];
-            $('#Name, #Position, #TeamId, #DateAdded, #imageFile').each(function () {
+            $('#Name, #Position, #TeamId, #imageFile').each(function () {
                 validateField($(this));
                 if ($(this).next('.validation-message').text()) {
                     errors.push($(this).next('.validation-message').text());
@@ -302,7 +300,6 @@ $(document).ready(function () {
                                 if (error.includes('Имя')) $('#NameError').text(error);
                                 if (error.includes('Позиция')) $('#PositionError').text(error);
                                 if (error.includes('Команда')) $('#TeamIdError').text(error);
-                                if (error.includes('даты')) $('#DateAddedError').text(error);
                                 if (error.includes('Фото')) $('#ImageFileError').text(error);
                             });
                         }
