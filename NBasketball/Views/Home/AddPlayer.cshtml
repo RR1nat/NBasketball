@@ -45,62 +45,6 @@
 
 <div id="addPlayerMessage" class="alert" style="display: none; margin-top: 20px;"></div>
 
-@section Scripts {
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $("#addPlayerForm").on("submit", function (e) {
-                e.preventDefault();
-
-                // Очищаем предыдущие сообщения об ошибках
-                $(".validation-message").text("");
-                $("#addPlayerMessage").hide();
-
-                var formData = new FormData(this);
-
-                $.ajax({
-                    url: "/Home/AddPlayerAjax",
-                    type: "POST",
-                    data: formData,
-                    processData: false,
-                    contentType: false,
-                    success: function (response) {
-                        if (response.success) {
-                            $("#addPlayerMessage")
-                                .removeClass("alert-danger")
-                                .addClass("alert-success")
-                                .text(response.message)
-                                .show();
-                            $("#addPlayerForm")[0].reset();
-                        } else {
-                            $("#addPlayerMessage")
-                                .removeClass("alert-success")
-                                .addClass("alert-danger")
-                                .text(response.message)
-                                .show();
-                            if (response.errors) {
-                                response.errors.forEach(function (error) {
-                                    if (error.toLowerCase().includes("имя")) $("#NameError").text(error);
-                                    if (error.toLowerCase().includes("позиция")) $("#PositionError").text(error);
-                                    if (error.toLowerCase().includes("команда")) $("#TeamIdError").text(error);
-                                    if (error.toLowerCase().includes("фото")) $("#ImageFileError").text(error);
-                                });
-                            }
-                        }
-                    },
-                    error: function (xhr, status, error) {
-                        $("#addPlayerMessage")
-                            .removeClass("alert-success")
-                            .addClass("alert-danger")
-                            .text("Произошла ошибка при отправке формы: " + error)
-                            .show();
-                    }
-                });
-            });
-        });
-    </script>
-}
-
 <style>
     .form-group {
         margin-bottom: 1.5rem;
