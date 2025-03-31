@@ -451,7 +451,7 @@ namespace NBasketball.Controllers
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Exception: {ex.Message}\nStackTrace: {ex.StackTrace}");
+                Console.WriteLine($"Exception in AddPlayerAjax: {ex.Message}\nStackTrace: {ex.StackTrace}");
                 return Json(new { success = false, message = $"Ошибка при добавлении игрока: {ex.Message}" });
             }
         }
