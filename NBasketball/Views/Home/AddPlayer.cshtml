@@ -3,11 +3,9 @@
 @{
     ViewData["Title"] = "Добавить игрока";
     Layout = "~/Views/Shared/_Layout.cshtml";
-
 }
 
 <h1>Добавить игрока</h1>
-
 
 <form id="addPlayerForm" enctype="multipart/form-data">
     <div class="form-group">
@@ -36,11 +34,6 @@
             }
         </select>
         <span class="validation-message" id="TeamIdError"></span>
-    </div>
-    <div class="form-group">
-        <label for="DateAdded">Дата добавления</label>
-        <input type="date" class="form-control" id="DateAdded" name="DateAdded" />
-        <span class="validation-message" id="DateAddedError"></span>
     </div>
     <div class="form-group">
         <label for="imageFile">Фото игрока</label>

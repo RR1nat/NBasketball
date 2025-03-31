@@ -87,7 +87,9 @@ namespace NBasketball.Controllers
                 player.ImagePath = $"/assets/{fileName}";
             }
 
-            player.DateAdded = player.DateAdded == default ? DateTime.Now : player.DateAdded;
+            // Устанавливаем текущую дату без времени
+            player.DateAdded = DateTime.Now.Date;
+
             _context.Players.Add(player);
             await _context.SaveChangesAsync();
 
@@ -391,13 +393,11 @@ namespace NBasketball.Controllers
             var name = Request.Form["Name"].ToString();
             var position = Request.Form["Position"].ToString();
             var teamIdStr = Request.Form["TeamId"].ToString();
-            var dateAddedStr = Request.Form["date_added"].ToString();
 
             var errors = new List<string>();
             if (string.IsNullOrWhiteSpace(name)) errors.Add("Имя обязательно");
             if (string.IsNullOrWhiteSpace(position)) errors.Add("Позиция обязательна");
             if (!int.TryParse(teamIdStr, out int teamId) || teamId <= 0) errors.Add("Команда обязательна");
-            if (!DateTime.TryParse(dateAddedStr, out DateTime dateAdded)) errors.Add("Неверный формат даты добавления");
             if (imageFile == null || imageFile.Length == 0) errors.Add("Фото игрока обязательно");
 
             if (errors.Any())
@@ -419,10 +419,10 @@ namespace NBasketball.Controllers
                     Name = name,
                     Position = position,
                     TeamId = teamId,
-                    DateAdded = dateAdded
+                    DateAdded = DateTime.Now.Date // Устанавливаем текущую дату без времени
                 };
 
-                // Обработка изображения (файл обязателен, поэтому проверка уже пройдена)
+                // Обработка изображения
                 var fileName = Guid.NewGuid().ToString() + Path.GetExtension(imageFile.FileName);
                 var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/assets", fileName);
                 using (var stream = new FileStream(filePath, FileMode.Create))
