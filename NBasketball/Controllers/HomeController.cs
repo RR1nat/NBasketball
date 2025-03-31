@@ -50,19 +50,21 @@ namespace NBasketball.Controllers
         [HttpGet]
         public IActionResult AddPlayer()
         {
-            try
-            {
-                // Временно убираем загрузку команд
-                ViewBag.Teams = new List<Team>(); // Пустой список, чтобы представление не ломалось
+            var teams = _context.Teams.ToList();
+            Console.WriteLine($"Количество команд: {teams.Count}");
+            ViewBag.Teams = teams;
 
-                var model = new Player();
-                return View(model);
-            }
-            catch (Exception ex)
+            var model = new Player();
+            if (teams.Any())
             {
-                Console.WriteLine($"Error in AddPlayer: {ex.Message}\nStackTrace: {ex.StackTrace}");
-                return StatusCode(500, "Internal server error: " + ex.Message);
+                model.TeamId = teams.First().Id; // Устанавливаем первую команду по умолчанию
+                Console.WriteLine($"Установлена команда по умолчанию: ID = {model.TeamId}, Name = {teams.First().Name}");
             }
+            else
+            {
+                Console.WriteLine("Команды не найдены, TeamId не установлен");
+            }
+            return View(model);
         }
 
         [HttpPost]
@@ -71,7 +73,7 @@ namespace NBasketball.Controllers
             if (!ModelState.IsValid)
             {
                 ViewBag.Teams = _context.Teams.ToList();
-                return View(player);
+                return View(player); // Вернуть форму с ошибками
             }
 
             if (imageFile != null)
@@ -85,11 +87,15 @@ namespace NBasketball.Controllers
                 player.ImagePath = $"/assets/{fileName}";
             }
 
+            // Устанавливаем текущую дату без времени
+            player.DateAdded = DateTime.Now.Date;
+
             _context.Players.Add(player);
             await _context.SaveChangesAsync();
 
             return RedirectToAction("Players");
         }
+
 
 
         [HttpGet]
@@ -387,16 +393,11 @@ namespace NBasketball.Controllers
             var name = Request.Form["Name"].ToString();
             var position = Request.Form["Position"].ToString();
             var teamIdStr = Request.Form["TeamId"].ToString();
-            var dateAddedStr = Request.Form["DateAdded"].ToString();
 
             var errors = new List<string>();
             if (string.IsNullOrWhiteSpace(name)) errors.Add("Имя обязательно");
             if (string.IsNullOrWhiteSpace(position)) errors.Add("Позиция обязательна");
             if (!int.TryParse(teamIdStr, out int teamId) || teamId <= 0) errors.Add("Команда обязательна");
-            if (!DateTime.TryParseExact(dateAddedStr, "yyyy-MM-dd", null, System.Globalization.DateTimeStyles.None, out DateTime dateAdded))
-            {
-                errors.Add("Неверный формат даты добавления. Ожидается формат ГГГГ-ММ-ДД (например, 2025-03-31).");
-            }
             if (imageFile == null || imageFile.Length == 0) errors.Add("Фото игрока обязательно");
 
             if (errors.Any())
@@ -418,7 +419,7 @@ namespace NBasketball.Controllers
                     Name = name,
                     Position = position,
                     TeamId = teamId,
-                    DateAdded = dateAdded
+                    DateAdded = DateTime.Now.Date // Устанавливаем текущую дату без времени
                 };
 
                 // Обработка изображения
@@ -451,7 +452,7 @@ namespace NBasketball.Controllers
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Exception in AddPlayerAjax: {ex.Message}\nStackTrace: {ex.StackTrace}");
+                Console.WriteLine($"Exception: {ex.Message}");
                 return Json(new { success = false, message = $"Ошибка при добавлении игрока: {ex.Message}" });
             }
         }
