@@ -456,7 +456,7 @@ namespace NBasketball.Controllers
                     DateAdded = player.DateAdded.ToString("yyyy-MM-dd"),
                     IsFavorite = false
                 };
-
+                //добавляем
                 return Json(new { success = true, message = "Игрок успешно добавлен!", player = addedPlayer });
             }
             catch (DbUpdateException ex)
