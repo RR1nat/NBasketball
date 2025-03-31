@@ -424,25 +424,25 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-EfeKMqTjQkW/Xci4w5w7diFp32zPv6mNprIRDgYQR1U="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"24586"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022EfeKMqTjQkW/Xci4w5w7diFp32zPv6mNprIRDgYQR1U=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Mar 2025 17:26:23 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"24586"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022EfeKMqTjQkW/Xci4w5w7diFp32zPv6mNprIRDgYQR1U=\u0022"},{"Name":"Last-Modified","Value":"Mon, 31 Mar 2025 11:10:49 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/NBasketball/js/site.neybi9zdfa.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"neybi9zdfa"},{"Name":"integrity","Value":"sha256-EfeKMqTjQkW/Xci4w5w7diFp32zPv6mNprIRDgYQR1U="},{"Name":"label","Value":"_content/NBasketball/js/site.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"24586"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022EfeKMqTjQkW/Xci4w5w7diFp32zPv6mNprIRDgYQR1U=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Mar 2025 17:26:23 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"24586"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022EfeKMqTjQkW/Xci4w5w7diFp32zPv6mNprIRDgYQR1U=\u0022"},{"Name":"Last-Modified","Value":"Mon, 31 Mar 2025 11:10:49 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/NBasketball/teams/los-angeles-lakers.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\teams\los-angeles-lakers.html'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-3UbzbDBN0sp07vF63DFmfH7\u002BOxAgIIbEdNN7I3ykMpY="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3232"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u00223UbzbDBN0sp07vF63DFmfH7\u002BOxAgIIbEdNN7I3ykMpY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Mar 2025 07:48:28 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3232"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u00223UbzbDBN0sp07vF63DFmfH7\u002BOxAgIIbEdNN7I3ykMpY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 31 Mar 2025 11:10:49 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/NBasketball/teams/los-angeles-lakers.twca7g4sri.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\teams\los-angeles-lakers.html'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"twca7g4sri"},{"Name":"integrity","Value":"sha256-3UbzbDBN0sp07vF63DFmfH7\u002BOxAgIIbEdNN7I3ykMpY="},{"Name":"label","Value":"_content/NBasketball/teams/los-angeles-lakers.html"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3232"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u00223UbzbDBN0sp07vF63DFmfH7\u002BOxAgIIbEdNN7I3ykMpY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Mar 2025 07:48:28 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3232"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u00223UbzbDBN0sp07vF63DFmfH7\u002BOxAgIIbEdNN7I3ykMpY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 31 Mar 2025 11:10:49 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

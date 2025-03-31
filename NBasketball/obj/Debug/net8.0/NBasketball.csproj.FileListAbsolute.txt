@@ -128,3 +128,4 @@ C:\Users\rinat\source\repos\NBasketball\NBasketball\obj\Debug\net8.0\NBasketball
 C:\Users\rinat\source\repos\NBasketball\NBasketball\obj\Debug\net8.0\NBasketball.genruntimeconfig.cache
 C:\Users\rinat\source\repos\NBasketball\NBasketball\obj\Debug\net8.0\ref\NBasketball.dll
 C:\Users\rinat\source\repos\NBasketball\NBasketball\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\rinat\source\repos\NBasketball\NBasketball\obj\Debug\net8.0\NBasketball.sourcelink.json
