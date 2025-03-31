@@ -378,37 +378,51 @@ namespace NBasketball.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> AddPlayerAjax(Player player, IFormFile imageFile)
+        public async Task<IActionResult> AddPlayerAjax(IFormFile imageFile)
         {
-            // Логируем полученные данные
-            Console.WriteLine($"Name: {player.Name}, Position: {player.Position}, TeamId: {player.TeamId}, DateAdded: {player.DateAdded}");
+            // Логируем все полученные данные
+            foreach (var key in Request.Form.Keys)
+            {
+                Console.WriteLine($"{key}: {Request.Form[key]}");
+            }
             if (imageFile != null) Console.WriteLine($"ImageFile: {imageFile.FileName}, Size: {imageFile.Length}");
 
-            // Проверяем валидацию модели
-            if (!ModelState.IsValid)
+            // Ручная валидация
+            var name = Request.Form["Name"].ToString();
+            var position = Request.Form["Position"].ToString();
+            var teamIdStr = Request.Form["TeamId"].ToString();
+            var dateAddedStr = Request.Form["date_added"].ToString();
+
+            var errors = new List<string>();
+            if (string.IsNullOrWhiteSpace(name)) errors.Add("Имя обязательно");
+            if (string.IsNullOrWhiteSpace(position)) errors.Add("Позиция обязательна");
+            if (!int.TryParse(teamIdStr, out int teamId) || teamId <= 0) errors.Add("Команда обязательна");
+            if (!DateTime.TryParse(dateAddedStr, out DateTime dateAdded)) errors.Add("Неверный формат даты добавления");
+            if (imageFile == null || imageFile.Length == 0) errors.Add("Фото игрока обязательно");
+
+            if (errors.Any())
             {
-                var errors = ModelState.Values
-                    .SelectMany(v => v.Errors)
-                    .Select(e => e.ErrorMessage)
-                    .ToList();
                 return Json(new { success = false, message = "Ошибка валидации", errors = errors });
             }
 
             try
             {
                 // Проверка существования команды
-                if (!await _context.Teams.AnyAsync(t => t.Id == player.TeamId))
+                if (!await _context.Teams.AnyAsync(t => t.Id == teamId))
                 {
                     return Json(new { success = false, message = "Указанная команда не найдена" });
                 }
 
-                // Проверка изображения
-                if (imageFile == null || imageFile.Length == 0)
+                // Создаём объект Player вручную
+                var player = new Player
                 {
-                    return Json(new { success = false, message = "Фото игрока обязательно" });
-                }
+                    Name = name,
+                    Position = position,
+                    TeamId = teamId,
+                    DateAdded = dateAdded
+                };
 
-                // Обработка изображения
+                // Обработка изображения (файл обязателен, поэтому проверка уже пройдена)
                 var fileName = Guid.NewGuid().ToString() + Path.GetExtension(imageFile.FileName);
                 var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/assets", fileName);
                 using (var stream = new FileStream(filePath, FileMode.Create))

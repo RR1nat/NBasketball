@@ -3,42 +3,44 @@
 @{
     ViewData["Title"] = "Добавить игрока";
     Layout = "~/Views/Shared/_Layout.cshtml";
+
 }
 
 <h1>Добавить игрока</h1>
 
+
 <form id="addPlayerForm" enctype="multipart/form-data">
     <div class="form-group">
-        <label asp-for="Name">Имя</label>
-        <input asp-for="Name" class="form-control" />
-        <span asp-validation-for="Name" class="validation-message"></span>
+        <label for="Name">Имя</label>
+        <input type="text" class="form-control" id="Name" name="Name" />
+        <span class="validation-message" id="NameError"></span>
     </div>
     <div class="form-group">
-        <label asp-for="Position">Позиция</label>
-        <select asp-for="Position" class="form-control">
+        <label for="Position">Позиция</label>
+        <select class="form-control" id="Position" name="Position">
             <option value="">Выберите позицию</option>
             <option value="Нападающий">Нападающий</option>
             <option value="Форвард">Форвард</option>
             <option value="Защитник">Защитник</option>
             <option value="Центровой">Центровой</option>
         </select>
-        <span asp-validation-for="Position" class="validation-message"></span>
+        <span class="validation-message" id="PositionError"></span>
     </div>
     <div class="form-group">
-        <label asp-for="TeamId">Команда</label>
-        <select asp-for="TeamId" class="form-control">
+        <label for="TeamId">Команда</label>
+        <select class="form-control" id="TeamId" name="TeamId">
             <option value="">Выберите команду</option>
             @foreach (var team in ViewBag.Teams)
             {
                 <option value="@team.Id">@team.Name</option>
             }
         </select>
-        <span asp-validation-for="TeamId" class="validation-message"></span>
+        <span class="validation-message" id="TeamIdError"></span>
     </div>
     <div class="form-group">
-        <label asp-for="DateAdded">Дата добавления</label>
-        <input asp-for="DateAdded" class="form-control" type="date" />
-        <span asp-validation-for="DateAdded" class="validation-message"></span>
+        <label for="DateAdded">Дата добавления</label>
+        <input type="date" class="form-control" id="DateAdded" name="DateAdded" />
+        <span class="validation-message" id="DateAddedError"></span>
     </div>
     <div class="form-group">
         <label for="imageFile">Фото игрока</label>
@@ -49,63 +51,6 @@
 </form>
 
 <div id="addPlayerMessage" class="alert" style="display: none; margin-top: 20px;"></div>
-
-@section Scripts {
-    <partial name="_ValidationScriptsPartial" />
-    <script>
-        $(document).ready(function () {
-            $("#addPlayerForm").on("submit", function (e) {
-                e.preventDefault();
-
-                // Очищаем предыдущие сообщения об ошибках
-                $(".validation-message").text("");
-                $("#addPlayerMessage").hide();
-
-                var formData = new FormData(this);
-
-                $.ajax({
-                    url: "/Home/AddPlayerAjax",
-                    type: "POST",
-                    data: formData,
-                    processData: false,
-                    contentType: false,
-                    success: function (response) {
-                        if (response.success) {
-                            $("#addPlayerMessage")
-                                .removeClass("alert-danger")
-                                .addClass("alert-success")
-                                .text(response.message)
-                                .show();
-                            $("#addPlayerForm")[0].reset();
-                        } else {
-                            $("#addPlayerMessage")
-                                .removeClass("alert-success")
-                                .addClass("alert-danger")
-                                .text(response.message)
-                                .show();
-                            if (response.errors) {
-                                response.errors.forEach(function (error) {
-                                    if (error.toLowerCase().includes("имя")) $("#NameError").text(error);
-                                    if (error.toLowerCase().includes("позиция")) $("#PositionError").text(error);
-                                    if (error.toLowerCase().includes("команда")) $("#TeamIdError").text(error);
-                                    if (error.toLowerCase().includes("дата")) $("#DateAddedError").text(error);
-                                    if (error.toLowerCase().includes("фото")) $("#ImageFileError").text(error);
-                                });
-                            }
-                        }
-                    },
-                    error: function (xhr, status, error) {
-                        $("#addPlayerMessage")
-                            .removeClass("alert-success")
-                            .addClass("alert-danger")
-                            .text("Произошла ошибка при отправке формы: " + error)
-                            .show();
-                    }
-                });
-            });
-        });
-    </script>
-}
 
 <style>
     .form-group {
